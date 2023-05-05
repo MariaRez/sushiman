@@ -1,0 +1,4 @@
+.about-us {
+    grid-area: about-us;
+    background-color: var(--color2);
+}

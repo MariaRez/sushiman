@@ -1,0 +1,15 @@
+.body {
+  background-color: var(--color2);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* величина рядов будет скорректирована */
+  grid-template-rows: 76px 770px 720px 1037px 1280px 640px 138px;
+  grid-template-areas:
+    "main-illustration header"
+    "main-illustration description"
+    "learn-illustration about-us"
+    "popular popular"
+    "trending trending"
+    "offers offers"
+    "footer footer";
+}

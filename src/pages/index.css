@@ -1,0 +1,28 @@
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/description/description.css);
+
+@import url(../blocks/about-us/about-us.css);
+
+@import url(../blocks/popular/popular.css);
+
+@import url(../blocks/trending/trending.css);
+
+@import url(../blocks/offers/offers.css);
+
+@import url(../blocks/footer/footer.css);
+/* цвета для использования */
+:root {
+  --color1: #b1454a;
+  --color2: #ffffff;
+  --color3: #1f1e31;
+  --color4: #888888;
+  --color5: #555555;
+  --color6: #121212;
+  --color7: #333333;
+  --color8: #121211;
+  --color9: #020202;
+  --color10: #FFF0DE;
+}

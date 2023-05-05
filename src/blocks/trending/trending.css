@@ -1,0 +1,4 @@
+.trending {
+    grid-area: trending;
+    background-color: var(--color2);
+}

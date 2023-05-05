@@ -1,0 +1,4 @@
+.popular {
+    grid-area: popular;
+    background-color: var(--color1);
+}

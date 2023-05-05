@@ -1,0 +1,4 @@
+.offers {
+    grid-area: offers;
+    background-color: var(--color1);
+}

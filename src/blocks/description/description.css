@@ -1,0 +1,4 @@
+.description {
+    grid-area: description;
+    background-color: var(--color2);
+}
