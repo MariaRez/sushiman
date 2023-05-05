@@ -3,7 +3,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* величина рядов будет скорректирована */
-  grid-template-rows: 76px 770px 720px 1037px 1280px 640px 138px;
+  /* grid-template-rows: 76px 770px 720px 1037px 1280px 640px 138px; */
+  grid-template-rows: repeat(7, minmax(100px, 200px));
   grid-template-areas:
     "main-illustration header"
     "main-illustration description"

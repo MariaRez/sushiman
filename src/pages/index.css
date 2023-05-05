@@ -2,6 +2,14 @@
 
 @import url(../blocks/header/header.css);
 
+@import url(../blocks/main-illustration/main-illustration.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+@import url(../blocks/learn-illustration/learn-illustration.css);
+
 @import url(../blocks/description/description.css);
 
 @import url(../blocks/about-us/about-us.css);

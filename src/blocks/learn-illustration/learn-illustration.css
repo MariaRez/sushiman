@@ -1,0 +1,4 @@
+.learn-illustration {
+    grid-area: learn-illustration;
+    background-color: var(--color10);
+}

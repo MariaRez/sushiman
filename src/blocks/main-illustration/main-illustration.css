@@ -1,0 +1,5 @@
+.main-illustration {
+    grid-area: main-illustration;
+    background-color: var(--color1);
+    position: relative;
+}
