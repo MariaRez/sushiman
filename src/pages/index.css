@@ -36,6 +36,9 @@
 @import url(../blocks/links/__item/links__item.css);
 
 @import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__header/about-us__header.css);
+@import url(../blocks/about-us/__description/about-us__description.css);
+@import url(../blocks/about-us/__text/about-us__text.css);
 
 @import url(../blocks/popular/popular.css);
 

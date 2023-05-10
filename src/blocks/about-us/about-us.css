@@ -1,4 +1,5 @@
 .about-us {
     grid-area: about-us;
     background-color: var(--color2);
+    padding: 147px 0 147px 100px;
 }

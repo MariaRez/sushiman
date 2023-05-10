@@ -5,7 +5,7 @@
   grid-template-columns: 540px auto;
   /* величина рядов будет скорректирована */
   /* grid-template-rows: 76px 770px 720px 1037px 1280px 640px 138px; */
-  grid-template-rows: 179px auto repeat(5, minmax(300px, 400px));
+  grid-template-rows: 179px auto auto repeat(4, minmax(300px, 400px));
   grid-template-areas:
     "main-illustration header"
     "main-illustration description"
