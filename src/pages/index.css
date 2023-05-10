@@ -12,6 +12,16 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
 @import url(../blocks/learn-illustration/learn-illustration.css);
+@import url(../blocks/learn-illustration/__link/learn-illustration__link.css);
+@import url(../blocks/learn-illustration/__link-text/learn-illustration__link-text.css);
+@import url(../blocks/learn-illustration/__link-image/learn-illustration__link-image.css);
+@import url(../blocks/learn-illustration/__container/learn-illustration__container.css);
+@import url(../blocks/learn-illustration/__image/learn-illustration__image.css);
+@import url(../blocks/learn-illustration/__image/_with/learn-illustration__image_with_salmon.css);
+@import url(../blocks/learn-illustration/__image/_with/learn-illustration__image_with_shimps.css);
+@import url(../blocks/learn-illustration/__text/learn-illustration__text.css);
+@import url(../blocks/learn-illustration/__text/_for/learn-illustration__text_for_salmon.css);
+@import url(../blocks/learn-illustration/__text/_for/learn-illustration__text_for_shimps.css);
 
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__header/description__header.css);

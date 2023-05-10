@@ -1,4 +1,8 @@
 .learn-illustration {
     grid-area: learn-illustration;
-    background-color: var(--color10);
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
 }
