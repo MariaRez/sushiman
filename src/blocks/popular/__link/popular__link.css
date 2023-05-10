@@ -1,0 +1,11 @@
+.popular__link {
+  width: 224px;
+  height: 64px;
+  background-color: var(--color6);
+  border-radius: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  text-decoration: none;
+}

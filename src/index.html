@@ -124,7 +124,7 @@
         mindset of hospitality, with our shopping and dining for our customers.
       </p>
     </section>
-    <!-- в данной секции пока не добавлена карусель -->
+    <!-- в данной секции пока не добавлена анимация карусели -->
     <section class="popular">
       <h3 class="popular__header">Popular Foods / 人気</h3>
       <ul class="popular__list-items">
@@ -161,7 +161,61 @@
         </li>
         <li class="popular__list-item">Others</li>
       </ul>
-      <!-- добавить карусель -->
+      <div class="carousel">
+        <img
+          src="/src/images/arrow-right.svg"
+          alt="Arrow to the left"
+          class="carousel__arrow carousel__arrow_to_left"
+        />
+        <ul class="carousel__items">
+          <li class="carousel__item">
+            <img
+              class="carousel__item-image"
+              src="/src/images/ChezuSushi.svg"
+              alt="Chezu Sushi"
+            />
+            <h4 class="carousel__item-header">Chezu Sushi</h4>
+            <div class="carousel__item-description">
+              <span class="carousel__item-rating">4.7</span>
+              <span class="carousel__item-price">$16.00</span>
+            </div>
+          </li>
+          <li class="carousel__item">
+            <img
+              class="carousel__item-image"
+              src="/src/images/OriginaleSushi.svg"
+              alt="Originale Sushi"
+            />
+            <h4 class="carousel__item-header">Originale Sushi</h4>
+            <div class="carousel__item-description">
+              <span class="carousel__item-rating">4.8</span>
+              <span class="carousel__item-price">$21.00</span>
+            </div>
+          </li>
+          <li class="carousel__item">
+            <img
+              class="carousel__item-image"
+              src="/src/images/RamenLegendo.svg"
+              alt="Ramen Legendo"
+            />
+            <h4 class="carousel__item-header">Ramen Legendo</h4>
+            <div class="carousel__item-description">
+              <span class="carousel__item-rating">4.7</span>
+              <span class="carousel__item-price">$16.00</span>
+            </div>
+          </li>
+        </ul>
+        <img
+          src="/src/images/arrow-right.svg"
+          alt="Arrow to the right"
+          class="carousel__arrow"
+        />
+      </div>
+      <!-- при необходимости вставить ссылку -->
+      <a href="" class="popular__link">
+        <span class="popular__link-text">Explore Foods</span>
+        <img clas="popular__link-image" src="/src/images/arrow-right-popular.svg" alt="Link to Explore Foods">
+      </a>
     </section>
     <section class="trending"></section>
     <section class="offers"></section>

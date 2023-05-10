@@ -1,0 +1,4 @@
+.carousel__items {
+    display: flex;
+    column-gap: 56px;
+}
