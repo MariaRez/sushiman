@@ -1,0 +1,8 @@
+.description__happy-customer {
+    width: 100%;
+    padding: 22px 0 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color10);
+}

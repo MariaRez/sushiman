@@ -1,0 +1,18 @@
+.description__happy-customer-example {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  column-gap: 24px;
+  position: relative;
+}
+
+.description__happy-customer-example::before {
+content: " ";
+background: var(--color9);
+opacity: 0.1;
+width: 1px;
+height: 80px;
+position: absolute;
+top: -16px;
+left: -56px;
+}

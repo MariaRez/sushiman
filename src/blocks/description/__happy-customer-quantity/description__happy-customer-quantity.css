@@ -1,0 +1,9 @@
+.description__happy-customer-quantity {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 82px;
+  line-height: 115px;
+  color: var(--color7);
+  padding-right: 28px;
+}

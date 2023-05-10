@@ -21,6 +21,13 @@
 @import url(../blocks/description/__link-image/description__link-image.css);
 @import url(../blocks/description/__link-text/description__link-text.css);
 
+@import url(../blocks/description/__happy-customer/description__happy-customer.css);
+@import url(../blocks/description/__happy-customer-quantity/description__happy-customer-quantity.css);
+@import url(../blocks/description/__happy-customer-header/description__happy-customer-header.css);
+@import url(../blocks/description/__happy-customer-example/description__happy-customer-example.css);
+@import url(../blocks/description/__happy-customer-example-image/description__happy-customer-example-image.css);
+@import url(../blocks/description/__happy-customer-example-text/description__happy-customer-example-text.css);
+
 @import url(../blocks/search/search.css);
 
 @import url(../blocks/links/links.css);
