@@ -1,3 +1,4 @@
+/* первоначальные стили для 1440px */
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/header/header.css);
@@ -13,6 +14,12 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__header/description__header.css);
 @import url(../blocks/description/__description/description__description.css);
+@import url(../blocks/description/__links/description__links.css);
+@import url(../blocks/description/__link/description__link.css);
+@import url(../blocks/description/__link/_to/description__link_to_order.css);
+@import url(../blocks/description/__link/_to/description__link_to_instructions.css);
+@import url(../blocks/description/__link-image/description__link-image.css);
+@import url(../blocks/description/__link-text/description__link-text.css);
 
 @import url(../blocks/search/search.css);
 

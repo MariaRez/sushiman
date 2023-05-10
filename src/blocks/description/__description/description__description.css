@@ -5,8 +5,9 @@
   font-size: 18px;
   line-height: 36px;
   letter-spacing: -0.01em;
-  color: --color6;
+  color: var(--color6);
   opacity: 0.8;
   max-width: 631px;
   margin-bottom: 42px;
+  padding-right: 85px;
 }

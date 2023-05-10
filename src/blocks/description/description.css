@@ -1,4 +1,8 @@
 .description {
     grid-area: description;
     background-color: var(--color2);
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }

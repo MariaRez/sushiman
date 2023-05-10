@@ -1,0 +1,10 @@
+.description__link_to_order {
+  background-color: var(--color6);
+  color: var(--color2);
+  border-radius: 36px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}

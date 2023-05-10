@@ -7,4 +7,5 @@
   color: var(--color6);
   max-width: 723px;
   margin-bottom: 32px;
+  align-self: flex-start;
 }

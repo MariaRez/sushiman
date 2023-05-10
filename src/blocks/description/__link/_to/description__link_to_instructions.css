@@ -1,0 +1,5 @@
+.description__link_to_instructions {
+    display: flex;
+    justify-content: start;
+    column-gap: 16px;
+}
