@@ -1,4 +1,5 @@
 .popular {
-    grid-area: popular;
-    background-color: var(--color1);
+  grid-area: popular;
+  background-color: var(--color1);
+  padding: 120px 81px;
 }

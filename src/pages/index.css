@@ -51,6 +51,10 @@
 @import url(../blocks/about-us/__text/about-us__text.css);
 
 @import url(../blocks/popular/popular.css);
+@import url(../blocks/popular/__header/popular__header.css);
+@import url(../blocks/popular/__list-items/popular__list-items.css);
+@import url(../blocks/popular/__list-item/popular__list-item.css);
+@import url(../blocks/popular/__list-item/_checked/popular__list-item_checked.css);
 
 @import url(../blocks/trending/trending.css);
 

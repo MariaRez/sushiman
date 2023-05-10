@@ -1,0 +1,10 @@
+.popular__header {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 78px;
+  text-align: center;
+  color: var(--color2);
+  margin-bottom: 48px;
+}

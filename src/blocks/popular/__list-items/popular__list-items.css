@@ -1,0 +1,5 @@
+.popular__list-items {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
