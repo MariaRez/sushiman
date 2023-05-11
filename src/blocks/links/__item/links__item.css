@@ -6,4 +6,5 @@
   line-height: 20px;
   text-transform: uppercase;
   color: var(--color6);
+  cursor: pointer;
 }
