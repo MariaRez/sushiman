@@ -1,0 +1,5 @@
+.carousel__item_checked {
+  width: 338px;
+  height: 399px;
+  background: var(--color2);
+}

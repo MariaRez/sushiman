@@ -65,11 +65,17 @@
 @import url(../blocks/carousel/__arrow/_to/carousel__arrow_to_left.css);
 @import url(../blocks/carousel/__items/carousel__items.css);
 @import url(../blocks/carousel/__item/carousel__item.css);
+@import url(../blocks/carousel/__item/_checked/carousel__item_checked.css);
 @import url(../blocks/carousel/__item-image/carousel__item-image.css);
+@import url(../blocks/carousel/__item-image/_checked/carousel__item-image_checked.css);
 @import url(../blocks/carousel/__item-header/carousel__item-header.css);
+@import url(../blocks/carousel/__item-header/_checked/carousel__item-header_checked.css);
 @import url(../blocks/carousel/__item-description/carousel__item-description.css);
+@import url(../blocks/carousel/__item-description/_checked/carousel__item-description_checked.css);
 @import url(../blocks/carousel/__item-rating/carousel__item-rating.css);
+@import url(../blocks/carousel/__item-rating/_checked/carousel__item-rating_checked.css);
 @import url(../blocks/carousel/__item-price/carousel__item-price.css);
+@import url(../blocks/carousel/__item-price/_checked/carousel__item-price_checked.css);
 
 @import url(../blocks/trending/trending.css);
 

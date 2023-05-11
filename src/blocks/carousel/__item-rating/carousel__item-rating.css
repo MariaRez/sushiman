@@ -9,11 +9,12 @@
 }
 
 .carousel__item-rating::before {
+  display: inline-block;
   content: url(/src/images/star.svg);
   margin-right: 10px;
   width: 20px;
   height: 19px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }

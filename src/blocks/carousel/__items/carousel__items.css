@@ -1,4 +1,5 @@
 .carousel__items {
     display: flex;
+    align-items: end;
     column-gap: 56px;
 }

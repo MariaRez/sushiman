@@ -1,0 +1,6 @@
+.carousel__item-header_checked {
+  font-size: 32px;
+  line-height: 43px;
+  color: var(--color5);
+  margin-top: 43px;
+}

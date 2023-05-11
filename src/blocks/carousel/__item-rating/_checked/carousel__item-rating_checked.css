@@ -1,0 +1,12 @@
+.carousel__item-rating_checked {
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--color4);
+}
+
+.carousel__item-rating_checked::before {
+  content: url(/src/images/star-big.svg);
+  margin-right: 10.67px;
+  width: 27px;
+  height: 25px;
+}
