@@ -1,0 +1,10 @@
+.offers__header {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 123px;
+  color: var(--color2);
+  text-align: center;
+  margin-bottom: 32px;
+}

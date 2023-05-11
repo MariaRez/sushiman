@@ -93,6 +93,14 @@
 @import url(../blocks/trending/__image-block-text/_order/trending__image-block-text_order_second.css);
 
 @import url(../blocks/offers/offers.css);
+@import url(../blocks/offers/__header/offers__header.css);
+@import url(../blocks/offers/__description/offers__description.css);
+@import url(../blocks/offers/__form/offers__form.css);
+@import url(../blocks/offers/__form-input/offers__form-input.css);
+@import url(../blocks/offers/__form-button/offers__form-button.css);
+@import url(../blocks/offers/__background/offers__background.css);
+@import url(../blocks/offers/__background/_side/offers__background_side_left.css);
+@import url(../blocks/offers/__background/_side/offers__background_side_right.css);
 
 @import url(../blocks/footer/footer.css);
 /* цвета для использования */

@@ -1,4 +1,9 @@
 .offers {
-    grid-area: offers;
-    background-color: var(--color1);
+  grid-area: offers;
+  background-color: var(--color1);
+  padding: 99px 346px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }

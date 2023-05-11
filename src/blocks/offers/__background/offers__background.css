@@ -1,0 +1,12 @@
+.offers__background {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 276px;
+  color: var(--color2);
+  opacity: 0.05;
+  max-width: 240px;
+  position: absolute;
+}

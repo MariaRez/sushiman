@@ -187,10 +187,18 @@
               src="/src/images/OriginaleSushi.svg"
               alt="Originale Sushi"
             />
-            <h4 class="carousel__item-header carousel__item-header_checked">Originale Sushi</h4>
-            <div class="carousel__item-description carousel__item-description_checked">
-              <span class="carousel__item-rating carousel__item-rating_checked">4.8</span>
-              <span class="carousel__item-price carousel__item-price_checked">$21.00</span>
+            <h4 class="carousel__item-header carousel__item-header_checked">
+              Originale Sushi
+            </h4>
+            <div
+              class="carousel__item-description carousel__item-description_checked"
+            >
+              <span class="carousel__item-rating carousel__item-rating_checked"
+                >4.8</span
+              >
+              <span class="carousel__item-price carousel__item-price_checked"
+                >$21.00</span
+              >
             </div>
           </li>
           <li class="carousel__item">
@@ -215,14 +223,20 @@
       <!-- при необходимости вставить ссылку -->
       <a href="" class="popular__link">
         <span class="popular__link-text">Explore Foods</span>
-        <img clas="popular__link-image" src="/src/images/arrow-right-popular.svg" alt="Link to Explore Foods">
+        <img
+          clas="popular__link-image"
+          src="/src/images/arrow-right-popular.svg"
+          alt="Link to Explore Foods"
+        />
       </a>
     </section>
     <section class="trending">
       <div class="trending__item">
-        <h2 class="trending__item-header">What’s Trending  / トレンド</h2>
+        <h2 class="trending__item-header">What’s Trending / トレンド</h2>
         <p class="trending__item-description">Japanese Sushi</p>
-        <p class="trending__item-text">Feel the taste of most delicious Sushi here.</p>
+        <p class="trending__item-text">
+          Feel the taste of most delicious Sushi here.
+        </p>
         <ul class="trending__item-list">
           <li class="trending__item-list-unit">Maki Sushi</li>
           <li class="trending__item-list-unit">Temaki Sushi</li>
@@ -233,17 +247,35 @@
         </ul>
       </div>
       <div class="trending__image-block">
-        <img class="trending__image trending__image_order_first" src="./images/trendy1.svg" alt="Japanese Sushi">
-        <p class="trending__image-block-text trending__image-block-text_order_first">ツナ</p>
+        <img
+          class="trending__image trending__image_order_first"
+          src="./images/trendy1.svg"
+          alt="Japanese Sushi"
+        />
+        <p
+          class="trending__image-block-text trending__image-block-text_order_first"
+        >
+          ツナ
+        </p>
       </div>
       <div class="trending__image-block">
-        <img class="trending__image trending__image_order_second" src="./images/trendy2.svg" alt="Japanese Drinks">
-        <p class="trending__image-block-text trending__image-block-text_order_second">飲む</p>
+        <img
+          class="trending__image trending__image_order_second"
+          src="./images/trendy2.svg"
+          alt="Japanese Drinks"
+        />
+        <p
+          class="trending__image-block-text trending__image-block-text_order_second"
+        >
+          飲む
+        </p>
       </div>
       <div class="trending__item">
-        <h2 class="trending__item-header">What’s Trending  / トレンド</h2>
+        <h2 class="trending__item-header">What’s Trending / トレンド</h2>
         <p class="trending__item-description">Japanese Drinks</p>
-        <p class="trending__item-text">Feel the taste of most delicious Japanese drinks here.</p>
+        <p class="trending__item-text">
+          Feel the taste of most delicious Japanese drinks here.
+        </p>
         <ul class="trending__item-list">
           <li class="trending__item-list-unit">Oruncha</li>
           <li class="trending__item-list-unit">Kombu-cha</li>
@@ -254,7 +286,17 @@
         </ul>
       </div>
     </section>
-    <section class="offers"></section>
+    <section class="offers">
+      <h2 class="offers__header">Get offers straight to your inbox</h2>
+      <p class="offers__description">Sign up for the Sushiman newsletter.</p>
+        <form class="offers__form" action="/contact" method="post" name="contact_form" autocomplete="on">
+          <input class="offers__form-input" type="email" placeholder="Enter email address" name="contact_input">
+          <button class="offers__form-button" name="contact_button" type="button" >Get Started</button>
+        </form>
+      </form>
+      <span class="offers__background offers__background_side_left">寿司エナク</span>
+      <span class="offers__background offers__background_side_right">日本食</span>
+    </section>
     <footer class="footer">
       <img
         src="./images/logo/logo-footer.svg"

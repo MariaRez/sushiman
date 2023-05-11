@@ -1,0 +1,27 @@
+.offers__form-input {
+  background-color: transparent;
+  border: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color2);
+  padding: 0;
+  min-width: 250px;
+}
+
+.offers__form-input::placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.offers__form-input:focus,
+.offers__form-input:active {
+  border: none;
+  outline: none;
+}
