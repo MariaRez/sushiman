@@ -1,4 +1,11 @@
 .trending {
-    grid-area: trending;
-    background-color: var(--color2);
+  grid-area: trending;
+  background-color: var(--color2);
+  display: grid;
+  grid-template-rows: repeat(2, 640px);
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-content: stretch;
+  justify-items: stretch;
+  align-items: stretch;
+  align-content: stretch; */
 }

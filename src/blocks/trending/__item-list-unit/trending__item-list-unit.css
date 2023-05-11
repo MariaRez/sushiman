@@ -1,0 +1,22 @@
+.trending__item-list-unit {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color8);
+  width: 143px;
+  display: flex;
+  align-items: center;
+}
+
+.trending__item-list-unit::before {
+  display: inline-block;
+  content: url(/src/images/check.svg);
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,7 @@
+.trending__item-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 365px;
+  column-gap: 79px;
+  row-gap: 24px;
+}

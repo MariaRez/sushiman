@@ -1,0 +1,9 @@
+.trending__item-description {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 90p;
+  color: var(--color6);
+  margin-bottom: 32px;
+}

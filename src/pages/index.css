@@ -78,6 +78,12 @@
 @import url(../blocks/carousel/__item-price/_checked/carousel__item-price_checked.css);
 
 @import url(../blocks/trending/trending.css);
+@import url(../blocks/trending/__item/trending__item.css);
+@import url(../blocks/trending/__item-header/trending__item-header.css);
+@import url(../blocks/trending/__item-description/trending__item-description.css);
+@import url(../blocks/trending/__item-text/trending__item-text.css);
+@import url(../blocks/trending/__item-list/trending__item-list.css);
+@import url(../blocks/trending/__item-list-unit/trending__item-list-unit.css);
 
 @import url(../blocks/offers/offers.css);
 
