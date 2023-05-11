@@ -1,10 +1,11 @@
 .header {
-    grid-area: header;
-    background-color: var(--color2);
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    column-gap: 67px;
-    padding-right: 83px;
-    margin-bottom: 51px;
+  grid-area: header;
+  background-color: var(--color2);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 67px;
+  padding-right: 83px;
+  margin-bottom: 51px;
+  position: relative;
 }

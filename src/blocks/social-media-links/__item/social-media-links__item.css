@@ -1,0 +1,8 @@
+.social-media-links__item {
+  width: 42px;
+  height: 42px;
+  text-decoration: none;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

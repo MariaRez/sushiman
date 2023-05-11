@@ -1,5 +1,10 @@
 .footer {
-    grid-area: footer;
-    background-color: var(--color10);
-    position: relative;
+  grid-area: footer;
+  background-color: var(--color10);
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 153px;
+  padding-right: 149px;
 }

@@ -103,6 +103,9 @@
 @import url(../blocks/offers/__background/_side/offers__background_side_right.css);
 
 @import url(../blocks/footer/footer.css);
+
+@import url(../blocks/social-media-links/social-media-links.css);
+
 /* цвета для использования */
 :root {
   --color1: #b1454a;
