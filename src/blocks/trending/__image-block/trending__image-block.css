@@ -1,0 +1,8 @@
+.trending__image-block {
+  background-color: var(--color10);
+  padding: 64px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

@@ -1,7 +1,6 @@
-.learn-illustration__link-image {
-  width: 24px;
-  height: 24px;
+.trending__image {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 10;
 }

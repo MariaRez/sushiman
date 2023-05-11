@@ -84,6 +84,13 @@
 @import url(../blocks/trending/__item-text/trending__item-text.css);
 @import url(../blocks/trending/__item-list/trending__item-list.css);
 @import url(../blocks/trending/__item-list-unit/trending__item-list-unit.css);
+@import url(../blocks/trending/__image-block/trending__image-block.css);
+@import url(../blocks/trending/__image/trending__image.css);
+@import url(../blocks/trending/__image/_order/trending__image_order_first.css);
+@import url(../blocks/trending/__image/_order/trending__image_order_second.css);
+@import url(../blocks/trending/__image-block-text/trending__image-block-text.css);
+@import url(../blocks/trending/__image-block-text/_order/trending__image-block-text_order_first.css);
+@import url(../blocks/trending/__image-block-text/_order/trending__image-block-text_order_second.css);
 
 @import url(../blocks/offers/offers.css);
 
