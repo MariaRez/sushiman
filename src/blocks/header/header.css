@@ -4,7 +4,6 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  column-gap: 67px;
-  padding: 54px 83px 105px 0;
+  padding: 52px 80px 103px 0;
   position: relative;
 }

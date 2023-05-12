@@ -1,7 +1,5 @@
 .search {
-  width: 19px;
-  height: 19px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  position: relative;
+  padding-left: 67px;
+  height: 24px;
 }
