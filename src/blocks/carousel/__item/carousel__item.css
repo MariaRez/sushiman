@@ -1,11 +1,17 @@
 .carousel__item {
   width: 260px;
   height: 320px;
-  background: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 36px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.carousel__item:hover {
+  background-color: var(--color1);
 }
