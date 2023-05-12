@@ -1,8 +1,14 @@
 .social-media-links__item {
+  display: inline-block;
   width: 42px;
   height: 42px;
   text-decoration: none;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: scale 0.5s ease;
+}
+
+.social-media-links__item:hover {
+  scale: 120%;
 }

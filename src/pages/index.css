@@ -105,6 +105,7 @@
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/social-media-links/social-media-links.css);
+@import url(../blocks/social-media-links/__item/social-media-links__item.css);
 
 /* поведение ссылок и кнопок */
 @import url(../blocks/button-change-bg-color/button-change-bg-color.css);

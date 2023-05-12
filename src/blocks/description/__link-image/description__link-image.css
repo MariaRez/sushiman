@@ -1,7 +1,12 @@
 .description__link-image {
-    width: 47px;
-    height: 47px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  width: 47px;
+  height: 47px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: scale 0.5s ease;
+}
+
+.description__link:hover > .description__link-image {
+  scale: 120%;
 }
