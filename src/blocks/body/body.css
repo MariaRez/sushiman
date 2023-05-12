@@ -1,11 +1,11 @@
 .body {
+  margin: 0 auto;
+  max-width: 1440px;
   min-width: 320px;
   background-color: var(--color2);
   display: grid;
   grid-template-columns: 540px auto;
-  /* величина рядов будет скорректирована */
-  /* grid-template-rows: 76px 770px 720px 1037px 1280px 640px 138px; */
-  grid-template-rows: 179px auto auto auto auto auto 138px;
+  grid-template-rows: repeat(7, auto);
   grid-template-areas:
     "main-illustration header"
     "main-illustration description"
