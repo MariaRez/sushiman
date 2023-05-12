@@ -58,6 +58,7 @@
 @import url(../blocks/popular/__list-item-image/popular__list-item-image.css);
 @import url(../blocks/popular/__link/popular__link.css);
 @import url(../blocks/popular/__link-text/popular__link-text.css);
+@import url(../blocks/popular/__link-text-arrow/popular__link-text-arrow.css);
 
 @import url(../blocks/carousel/carousel.css);
 @import url(../blocks/carousel/__arrow/casousel__arrow.css);

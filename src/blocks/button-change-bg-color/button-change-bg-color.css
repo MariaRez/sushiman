@@ -7,8 +7,7 @@
 
 .button-change-bg-color:hover,
 .button-change-bg-color:focus-visible {
-  background-color: var(--color2);
-  color: var(--color3);
+  background-color: var(--color5);
 }
 
 .button-change-bg-color > .button-change-bg-color__span {
@@ -34,7 +33,7 @@
   content: "";
   position: absolute;
   z-index: -1;
-  background-color: var(--color10);
+  background-color: var(--color8);
   width: 10%;
   aspect-ratio: 1;
   border-radius: 50%;
