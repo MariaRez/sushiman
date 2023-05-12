@@ -7,4 +7,5 @@
   text-transform: uppercase;
   color: var(--color6);
   cursor: pointer;
+  text-decoration: none;
 }
