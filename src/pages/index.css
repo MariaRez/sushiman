@@ -58,7 +58,6 @@
 @import url(../blocks/popular/__list-item-image/popular__list-item-image.css);
 @import url(../blocks/popular/__link/popular__link.css);
 @import url(../blocks/popular/__link-text/popular__link-text.css);
-@import url(../blocks/popular/__link-image/popular__link-image.css);
 
 @import url(../blocks/carousel/carousel.css);
 @import url(../blocks/carousel/__arrow/casousel__arrow.css);
@@ -105,6 +104,9 @@
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/social-media-links/social-media-links.css);
+
+/* поведение ссылок и кнопок */
+@import url(../blocks/button-change-bg-color/button-change-bg-color.css);
 
 /* цвета для использования */
 :root {

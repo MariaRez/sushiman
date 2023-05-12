@@ -8,4 +8,5 @@
   align-items: center;
   column-gap: 16px;
   text-decoration: none;
+  color: var(--color2);
 }

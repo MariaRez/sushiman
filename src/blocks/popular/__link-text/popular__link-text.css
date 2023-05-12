@@ -5,5 +5,5 @@
   font-size: 18px;
   line-height: 23px;
   text-align: center;
-  color: var(--color2);
+  color: inherit;
 }
