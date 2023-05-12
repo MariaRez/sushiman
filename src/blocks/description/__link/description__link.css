@@ -1,8 +1,9 @@
 .description__link {
-    width: 212px;
-    height: 64px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 212px;
+  height: 64px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }

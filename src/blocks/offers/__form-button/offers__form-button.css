@@ -12,4 +12,5 @@
   color: var(--color2);
   border: none;
   cursor: pointer;
+  position: relative;
 }

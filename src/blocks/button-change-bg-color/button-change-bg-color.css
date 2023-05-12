@@ -1,6 +1,5 @@
 .button-change-bg-color {
   transition: background-color 250ms;
-  position: relative;
   isolation: isolate;
   overflow: hidden;
 }
