@@ -110,6 +110,9 @@
 @import url(../blocks/social-media-links/social-media-links.css);
 @import url(../blocks/social-media-links/__item/social-media-links__item.css);
 
+/* модальное окно - для подтверждения успешной отправки письма */
+@import url(../blocks/modal-window/modal-window.css);
+
 /* поведение ссылок и кнопок */
 @import url(../blocks/button-change-bg-color/button-change-bg-color.css);
 

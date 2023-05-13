@@ -1,0 +1,15 @@
+.modal-window {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 25px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 500px;
+  height: 250px;
+  margin-left: -250px;
+  margin-top: -125px;
+  border-radius: 64px;
+  background-color: var(--color1);
+  z-index: 100;
+}
