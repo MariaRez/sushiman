@@ -1,6 +1,6 @@
 .carousel__item_checked {
-  width: 338px;
-  height: 399px;
+  min-width: 338px;
+  min-height: 399px;
   background-color: var(--color2);
   transition: background-color 0.5s ease;
 }

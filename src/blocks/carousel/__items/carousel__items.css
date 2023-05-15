@@ -1,8 +1,10 @@
 .carousel__items {
   width: 100%;
-  padding: 0 85px;
+  max-width: 970px;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: end;
+  column-gap: 56px;
+  overflow: hidden;
 }
