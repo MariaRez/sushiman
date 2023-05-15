@@ -6,5 +6,6 @@
   justify-content: start;
   align-items: end;
   column-gap: 56px;
+  position: relative;
   overflow: hidden;
 }
