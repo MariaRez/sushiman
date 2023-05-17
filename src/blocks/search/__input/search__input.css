@@ -17,17 +17,13 @@
   font-size: 16px;
   line-height: 32px;
   color: var(--color2);
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
-.search:hover .search__input {
-  visibility: visible;
-  opacity: 1;
-}
-
-.search__input:hover .search__input {
-  visibility: visible;
-  opacity: 1;
+.search__input:focus,
+.search__input:active {
+  border: none;
+  outline: none;
 }
 
 .search__input::placeholder {
@@ -39,8 +35,14 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.search__input:focus,
-.search__input:active {
-  border: none;
-  outline: none;
+.search:hover .search__input {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.search__input:hover .search__input {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
