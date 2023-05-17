@@ -1,3 +1,5 @@
+// КАРУСЕЛЬ
+
 const carousel = document.querySelector(".carousel");
 const carouselItems = carousel.querySelector(".carousel__items");
 const arrowNext = carousel.querySelector(".carousel__arrow_to_left");
@@ -109,3 +111,23 @@ function updateSelectedCarouselItemRight() {
 
 // Инициализация выбранного элемента при загрузке страницы
 updateSelectedCarouselItemRight();
+
+// МОДАЛЬНОЕ ОКНО
+
+const openModalBtn = document.getElementById("openModal");
+const modal = document.getElementById("modal");
+const closeModalBtn = document.getElementById("closeModal");
+
+openModalBtn.addEventListener("click", function() {
+  modal.style.display = "block";
+});
+
+closeModalBtn.addEventListener("click", function() {
+  modal.style.display = "none";
+});
+
+window.addEventListener("click", function(event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+});

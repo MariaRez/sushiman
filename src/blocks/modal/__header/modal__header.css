@@ -1,0 +1,8 @@
+.modal__header {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  color: var(--color6);
+}

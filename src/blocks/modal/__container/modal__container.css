@@ -1,0 +1,20 @@
+.modal__container {
+  position: fixed;
+  top: 250px;
+  left: 30%;
+  width: 50%;
+  box-sizing: border-box;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: var(--color2);
+  border-radius: 36px;
+  border: 1px solid var(--color1);
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 30px;
+}
+  

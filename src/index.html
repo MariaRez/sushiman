@@ -135,7 +135,6 @@
         mindset of hospitality, with our shopping and dining for our customers.
       </p>
     </section>
-    <!-- в данной секции пока не добавлена анимация карусели -->
     <section class="popular">
       <h3 class="popular__header">Popular Foods / 人気</h3>
       <ul class="popular__list-items">
@@ -191,7 +190,6 @@
               <span class="carousel__item-price">$16.00</span>
             </div>
           </li>
-          <!-- на этапе верстки отмечен данный элемент как выбранный -->
           <li class="carousel__item">
             <img
               class="carousel__item-image"
@@ -378,7 +376,7 @@
       <p class="offers__description">Sign up for the Sushiman newsletter.</p>
         <form class="offers__form" action="/contact" method="post" name="contact_form" autocomplete="on">
           <input class="offers__form-input" type="email" placeholder="Enter email address" name="contact_input">
-          <button class="offers__form-button button-change-bg-color" name="contact_button" type="button">
+          <button class="offers__form-button button-change-bg-color" name="contact_button" type="button" id="openModal">
             <span class="button-change-bg-color__span"></span>
             Get Started
             <span class=button-change-bg-color__span></span>
@@ -414,9 +412,16 @@
       </ul>
     </footer>
     <!-- необходимо доделать модальное окно -->
-    <!-- <dialog class="modal-window" open>
-      <p>Greetings, one and all!</p>
-    </dialog> -->
+    <div id="modal" class="modal">
+      <div class="modal__container">
+        <span class="modal__background modal__background_side_left">寿司エナク</span>
+        <span class="modal__background modal__background_side_botton">日本食</span>
+        <span id="closeModal" class="modal__close-button">&times;</span>
+        <h2 class="modal__header">Your data has been successfully sent</h2>
+        <p class="modal__description">Thank you for subscribing to our news!</p>
+        <img src="/src/images/sushi-shrimp.svg" alt="Shrimp sushi" class="modal__image">
+      </div>
+    </div>
     <script src="./pages/index.js"></script>
   </body>
 </html>

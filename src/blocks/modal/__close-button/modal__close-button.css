@@ -1,0 +1,17 @@
+.modal__close-button {
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  color: var(--color2);
+  float: right;
+  font-size: 45px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.modal__close-button:hover,
+.modal__close-button:focus {
+  color: var(--color9);
+  text-decoration: none;
+  cursor: pointer;
+}
