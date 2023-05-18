@@ -10,6 +10,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/__image/logo__image.css);
 
 @import url(../blocks/learn-illustration/learn-illustration.css);
 @import url(../blocks/learn-illustration/__link/learn-illustration__link.css);
@@ -46,6 +47,7 @@
 @import url(../blocks/search/__button-image/search__button-image.css);
 
 @import url(../blocks/links/links.css);
+@import url(../blocks/links/_place/links_place_footer.css);
 @import url(../blocks/links/__item/links__item.css);
 
 @import url(../blocks/about-us/about-us.css);
@@ -109,6 +111,7 @@
 
 @import url(../blocks/social-media-links/social-media-links.css);
 @import url(../blocks/social-media-links/__item/social-media-links__item.css);
+@import url(../blocks/social-media-links/__item-image/social-media-links__item-image.css);
 
 /* модальное окно - для подтверждения успешной отправки письма */
 @import url(../blocks/modal/modal.css);

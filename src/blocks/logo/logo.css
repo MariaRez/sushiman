@@ -8,3 +8,10 @@
   position: absolute;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 90px;
+    height: 14px;
+  }
+}

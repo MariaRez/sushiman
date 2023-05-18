@@ -6,3 +6,10 @@
   background-color: transparent;
   cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+  .search__button {
+    width: 20px;
+    height: 20px;
+  }
+}

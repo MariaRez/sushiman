@@ -1,0 +1,11 @@
+.social-media-links__item-image {
+  width: 42px;
+  height: 42px;
+}
+
+@media (max-width: 768px) {
+  .social-media-links__item-image {
+    width: 24px;
+    height: 24px;
+  }
+}

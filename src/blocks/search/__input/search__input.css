@@ -4,7 +4,7 @@
   width: 550px;
   height: 50px;
   border-radius: 36px;
-  padding-left: 24px;
+  padding: 0 24px;
   border: none;
   position: absolute;
   top: -13px;
@@ -46,3 +46,28 @@
   opacity: 1;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
+
+@media (max-width: 1280px) {
+  .search__input {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .search__input {
+    width: 300px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 15px;
+    top: -9px;
+    right: 30px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search__input {
+    width: 150px;
+  }
+}
+

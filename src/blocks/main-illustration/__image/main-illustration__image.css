@@ -1,8 +1,14 @@
 .main-illustration__image {
-  z-index: 10;
   width: 611px;
   height: 633px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .main-illustration__image {
+    width: 300px;
+    height: auto;
+  }
 }

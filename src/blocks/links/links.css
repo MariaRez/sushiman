@@ -1,4 +1,18 @@
 .links {
-    display: flex;
-    column-gap: 64px;
+  display: flex;
+  column-gap: 64px;
+}
+
+@media (max-width: 1280px) {
+  .links {
+    column-gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+  }
 }

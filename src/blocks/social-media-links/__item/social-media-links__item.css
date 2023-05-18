@@ -12,3 +12,10 @@
 .social-media-links__item:hover {
   scale: 120%;
 }
+
+@media (max-width: 768px) {
+  .social-media-links__item {
+    width: 24px;
+    height: 24px;
+  }
+}

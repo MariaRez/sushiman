@@ -13,3 +13,10 @@
 .links__item:hover {
   color: var(--color1);
 }
+
+@media (max-width: 1024px) {
+  .links__item {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

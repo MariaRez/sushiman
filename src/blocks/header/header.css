@@ -3,7 +3,19 @@
   background-color: var(--color2);
   display: flex;
   justify-content: end;
-  align-items: center;
+  align-items:flex-start;
   padding: 52px 80px 103px 0;
   position: relative;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 30px 50px 70px 0;
+  }
 }
