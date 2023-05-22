@@ -5,8 +5,38 @@
   font-size: 88px;
   line-height: 123px;
   color: var(--color6);
-  max-width: 723px;
   margin-bottom: 32px;
-  padding-left: 100px;
+  padding: 0 15px 0 100px;
   align-self: flex-start;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1280px) {
+  .description__header {
+    max-width: 700px;
+    font-size: 68px;
+    line-height: 100px;
+    padding: 0 20px 0 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .description__header {
+    max-width: 650px;
+    font-size: 55px;
+    line-height: 80px;
+    padding-left: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description__header {
+    max-width: 350px;
+    font-size: 35px;
+    line-height: 50px;
+    padding-left: 30px;
+    align-self: center;
+    margin-bottom: 20px;
+  }
 }

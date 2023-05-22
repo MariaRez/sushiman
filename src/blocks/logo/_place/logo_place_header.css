@@ -3,6 +3,12 @@
   left: 80px;
 }
 
+@media (max-width: 1024px) {
+  .logo_place_header {
+    top: 45px;
+  }
+}
+
 @media (max-width: 768px) {
   .logo_place_header {
     top: 30px;

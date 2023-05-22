@@ -11,3 +11,25 @@
   margin-bottom: 42px;
   padding-right: 85px;
 }
+
+@media (max-width: 1280px) {
+  .description__description {
+    margin-bottom: 30px;
+    padding: 0 50px 0 10px
+  }
+}
+
+@media (max-width: 1024px) {
+  .description__description {
+    padding: 0 30px 0 10px
+  }
+}
+
+@media (max-width: 768px) {
+  .description__description {
+    max-width: 350px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+}

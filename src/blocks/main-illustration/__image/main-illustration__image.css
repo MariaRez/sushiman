@@ -6,9 +6,21 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1280px) {
+  .main-illustration__image {
+    width: 450px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-illustration__image {
+    width: 350px;
+  }
+}
+
 @media (max-width: 768px) {
   .main-illustration__image {
-    width: 300px;
-    height: auto;
+    width: 230px;
   }
 }

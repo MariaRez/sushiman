@@ -1,7 +1,13 @@
 .description {
-    grid-area: description;
-    background-color: var(--color2);
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+  grid-area: description;
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+@media (max-width: 768px) {
+  .description {
+    align-items: center;
+  }
 }

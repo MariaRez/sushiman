@@ -21,8 +21,10 @@
 - search
 
 что дальше
+- description менее 425
 - main-illustration
-- description
+
+- изменить меню в шапке на бургер
 
 
 Разрешения

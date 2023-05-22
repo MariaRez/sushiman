@@ -5,8 +5,7 @@
   min-width: 320px;
   background-color: var(--color2);
   display: grid;
-  grid-template-columns: minmax(160px, 540px) minmax(265px, 900px);
-  /* grid-template-columns: 540px 900px; */
+  grid-template-columns: 540px auto;
   grid-template-rows: repeat(7, auto);
   grid-template-areas:
     "main-illustration header"
@@ -16,4 +15,22 @@
     "trending trending"
     "offers offers"
     "footer footer";
+}
+
+@media (max-width: 1280px) {
+  .body {
+    grid-template-columns: 400px minmax(625px, 840px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .body {
+    grid-template-columns: 300px minmax(469px, 725px);
+  }
+}
+
+@media (max-width: 768px) {
+  .body {
+    grid-template-columns: 200px minmax(226px, 568px);
+  }
 }
