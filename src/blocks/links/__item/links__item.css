@@ -20,3 +20,11 @@
     line-height: 15px;
   }
 }
+
+@media (max-width: 768px) {
+  .links__item {
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--color2);
+  }
+}
