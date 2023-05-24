@@ -47,8 +47,10 @@
 @import url(../blocks/search/__button-image/search__button-image.css);
 
 @import url(../blocks/links/links.css);
+@import url(../blocks/links/_place/links_place_header.css);
 @import url(../blocks/links/_place/links_place_footer.css);
 @import url(../blocks/links/__item/links__item.css);
+@import url(../blocks/links/__item/_place/links__item_place_header.css);
 
 @import url(../blocks/about-us/about-us.css);
 @import url(../blocks/about-us/__header/about-us__header.css);

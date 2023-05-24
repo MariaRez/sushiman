@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .links__item_place_header {
+    color: var(--color2);
+  }
+
+  .links__item_place_header:hover {
+    color: var(--color6);
+  }
+}
