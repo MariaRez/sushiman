@@ -1,6 +1,7 @@
 .links {
   display: flex;
   column-gap: 64px;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 @media (max-width: 1280px) {
@@ -17,22 +18,7 @@
   }
 }
 
-/* временно здесь */
-
-.burger-button {
-  display: none;
-}
-
-.burger-button:hover {
-  scale: 120%;
-  cursor: pointer;
-}
-
 @media (max-width: 768px) {
-  .burger-button {
-    display: inline-block;
-  }
-
   .links {
     visibility: hidden;
     opacity: 0;
@@ -42,17 +28,20 @@
     background-color: var(--color1);
     border-radius: 12px;
     width: 70px;
+    padding: 5px;
   }
 
   .links__container:hover .links {
     visibility: visible;
     opacity: 1;
     z-index: 10;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   }
-  
+
   .links:hover .links {
     visibility: visible;
     opacity: 1;
     z-index: 10;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   }
 }

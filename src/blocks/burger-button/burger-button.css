@@ -1,0 +1,21 @@
+.burger-button {
+  display: none;
+}
+
+.burger-button:hover {
+  scale: 120%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .burger-button {
+    display: inline-block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--color6);
+  }
+}

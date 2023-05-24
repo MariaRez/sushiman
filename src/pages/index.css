@@ -124,6 +124,9 @@
 @import url(../blocks/modal/__description/modal__description.css);
 @import url(../blocks/modal/__image/modal__image.css);
 
+/* бургер-меню для заголовка */
+@import url(../blocks/burger-button/burger-button.css);
+
 /* поведение ссылок и кнопок */
 @import url(../blocks/button-change-bg-color/button-change-bg-color.css);
 
