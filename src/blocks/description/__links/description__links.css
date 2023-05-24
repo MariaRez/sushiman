@@ -1,6 +1,28 @@
 .description__links {
-  padding-right: 252px;
   display: flex;
   column-gap: 40px;
-  margin-bottom: 88px;
+  margin: 0 0 88px 184px;
+}
+
+@media (max-width: 1280px) {
+  .description__links {
+    column-gap: 35px;
+    margin: 0 0 70px 129px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .description__links {
+    column-gap: 30px;
+    margin: 0 0 60px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description__links {
+    row-gap: 5px;
+    margin: 0;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
 }

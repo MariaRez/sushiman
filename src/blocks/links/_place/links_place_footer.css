@@ -5,3 +5,9 @@
     align-items: center;
   }
 }
+
+@media (max-width: 768px) {
+  .links_place_footer {
+    row-gap: 7px;
+  }
+}

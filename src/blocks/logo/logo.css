@@ -15,3 +15,10 @@
     height: 14px;
   }
 }
+
+@media (max-width: 425px) {
+  .logo {
+    width: 70px;
+    height: 16px;
+  }
+}

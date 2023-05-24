@@ -10,3 +10,10 @@
 .description__link:hover > .description__link-image {
   scale: 120%;
 }
+
+@media (max-width: 1024px) {
+  .description__link-image {
+    width: 32px;
+    height: 32px;
+  }
+}

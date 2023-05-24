@@ -1,5 +1,11 @@
 .description__link_to_instructions {
-    display: flex;
-    justify-content: start;
-    column-gap: 16px;
+  display: flex;
+  justify-content: start;
+  column-gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .description__link_to_instructions {
+    column-gap: 8px;
+  }
 }

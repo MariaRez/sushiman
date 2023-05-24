@@ -8,20 +8,18 @@
   color: var(--color6);
   opacity: 0.8;
   max-width: 631px;
-  margin-bottom: 42px;
-  padding-right: 85px;
+  margin: 0 85px 42px 184px;
 }
 
 @media (max-width: 1280px) {
   .description__description {
-    margin-bottom: 30px;
-    padding: 0 50px 0 10px
+    margin: 0 60px 30px 129px;
   }
 }
 
 @media (max-width: 1024px) {
   .description__description {
-    padding: 0 30px 0 10px
+    margin: 0 100px 25px 100px;
   }
 }
 
@@ -30,6 +28,7 @@
     max-width: 350px;
     font-size: 12px;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin: 0 50px 20px 70px;
+    align-self: flex-start;
   }
 }

@@ -11,7 +11,13 @@
 
 @media (max-width: 768px) {
   .logo_place_footer {
-    bottom: 68px;
+    bottom: 55.5px;
     left: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo_place_footer {
+    left: 30px;
   }
 }

@@ -34,3 +34,9 @@
     grid-template-columns: 200px minmax(226px, 568px);
   }
 }
+
+@media (max-width: 425px) {
+  .body {
+    grid-template-columns: 120px minmax(205px, 305px);
+  }
+}

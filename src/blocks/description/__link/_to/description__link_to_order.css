@@ -8,3 +8,10 @@
   font-size: 18px;
   line-height: 23px;
 }
+
+@media (max-width: 1024px) {
+  .description__link_to_order {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
