@@ -7,7 +7,6 @@
   color: var(--color6);
   margin-bottom: 32px;
   padding: 0 15px 0 100px;
-  align-self: flex-start;
   box-sizing: border-box;
 }
 
@@ -33,10 +32,17 @@
 @media (max-width: 768px) {
   .description__header {
     max-width: 350px;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 50px;
-    padding-left: 30px;
-    align-self: center;
+    padding-left: 40px;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .description__header {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
   }
 }

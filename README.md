@@ -19,10 +19,7 @@
 - social-media и все дочерние
 - links in header and footer
 - search
-
-что дальше
-- description менее 425
-- main-illustration
+- description without customer
 
 
 Разрешения

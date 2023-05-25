@@ -13,3 +13,10 @@
     line-height: 20px;
   }
 }
+
+@media (max-width: 425px) {
+  .description__link-text {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

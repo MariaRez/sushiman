@@ -14,3 +14,10 @@
     height: 43px;
   }
 }
+
+@media (max-width: 425px) {
+  .description__link {
+    width: 115px;
+    height: 30px;
+  }
+}

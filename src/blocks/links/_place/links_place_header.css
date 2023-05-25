@@ -25,3 +25,10 @@
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   }
 }
+
+@media (max-width: 425px) {
+  .links_place_header {
+    top: 7px;
+    right: 55px;
+  }
+}

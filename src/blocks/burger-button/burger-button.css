@@ -19,3 +19,10 @@
     color: var(--color6);
   }
 }
+
+@media (max-width: 425px) {
+  .burger-button {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

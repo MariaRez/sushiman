@@ -28,7 +28,14 @@
     max-width: 350px;
     font-size: 12px;
     line-height: 20px;
-    margin: 0 50px 20px 70px;
-    align-self: flex-start;
+    margin: 0 30px 20px 70px;
+  }
+}
+
+@media (max-width: 425px) {
+  .description__description {
+    margin: 0 30px 15px 60px;
+    font-size: 10px;
+    line-height: 15px;
   }
 }

@@ -63,11 +63,31 @@
     right: 30px;
     padding: 0 20px;
   }
+
+  .search__input::placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 
 @media (max-width: 768px) {
   .search__input {
     width: 150px;
+  }
+}
+
+@media (max-width: 425px) {
+  .search__input {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 12px;
+    right: 20px;
+  }
+
+  .search__input::placeholder {
+    font-size: 10px;
+    line-height: 12px;
   }
 }
 
