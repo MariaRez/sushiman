@@ -5,3 +5,10 @@
   background-position: center;
   background-size: contain;
 }
+
+@media (max-width: 768px) {
+  .description__happy-customer-example-image {
+    width: 30px;
+    height: 30px;
+  }
+}

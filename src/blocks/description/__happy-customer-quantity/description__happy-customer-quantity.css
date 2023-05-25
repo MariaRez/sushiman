@@ -7,3 +7,27 @@
   color: var(--color7);
   padding-right: 28px;
 }
+
+@media (max-width: 1024px) {
+  .description__happy-customer-quantity {
+    font-size: 50px;
+    line-height: 75px;
+    padding-right: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .description__happy-customer-quantity {
+    font-size: 25px;
+    line-height: 40px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .description__happy-customer-quantity {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

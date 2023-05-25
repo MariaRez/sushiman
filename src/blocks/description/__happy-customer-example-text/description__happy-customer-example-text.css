@@ -9,3 +9,19 @@
   color: var(--color6);
   opacity: 0.8;
 }
+
+@media (max-width: 1024px) {
+  .description__happy-customer-example-text {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description__happy-customer-example-text {
+    font-size: 10px;
+    line-height: 15px;
+    max-width: 150px;
+  }
+}
