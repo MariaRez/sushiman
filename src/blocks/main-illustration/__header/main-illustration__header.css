@@ -17,7 +17,35 @@
     font-size: 100px;
     line-height: 108px;
     max-width: 100px;
-    left: 70px;
-    bottom: 40px;
+    bottom: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-illustration__header {
+    font-size: 70px;
+    line-height: 90px;
+    max-width: 70px;
+    bottom: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-illustration__header {
+    font-size: 50px;
+    line-height: 65px;
+    max-width: 50px;
+    left: 50px;
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .main-illustration__header {
+    font-size: 35px;
+    line-height: 45px;
+    max-width: 35px;
+    left: 30px;
+    bottom: 20px;
   }
 }
