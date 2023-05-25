@@ -19,7 +19,12 @@
 - social-media и все дочерние
 - links in header and footer
 - search
-- description without customer
+- description
+- main-illust
+
+Что дальше
+- about us
+- offer
 
 
 Разрешения
