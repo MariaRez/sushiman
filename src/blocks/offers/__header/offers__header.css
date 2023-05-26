@@ -4,7 +4,43 @@
   font-weight: 600;
   font-size: 88px;
   line-height: 123px;
+  max-width: 748px;
   color: var(--color2);
   text-align: center;
   margin-bottom: 32px;
+}
+
+@media (max-width: 1280px) {
+  .offers__header {
+    font-size: 68px;
+    line-height: 100px;
+    max-width: 590px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .offers__header {
+    font-size: 55px;
+    line-height: 80px;
+    max-width: 490px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offers__header {
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 360px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .offers__header {
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 180px;
+    margin-bottom: 10px;
+  }
 }

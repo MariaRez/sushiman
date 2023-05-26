@@ -21,10 +21,11 @@
 - search
 - description
 - main-illust
+- offer
 
 Что дальше
 - about us
-- offer
+- offer bg
 
 
 Разрешения

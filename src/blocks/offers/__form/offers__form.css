@@ -10,3 +10,35 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 1280px) {
+  .offers__form {
+    padding: 12px 12px 12px 20px;
+    width: 440px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .offers__form {
+    padding: 11px 11px 11px 18px;
+    width: 400px;
+    height: 73px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offers__form {
+    padding: 10px 10px 10px 16px;
+    width: 320px;
+    height: 58px;
+  }
+}
+
+@media (max-width: 425px) {
+  .offers__form {
+    padding: 8px 8px 8px 14px;
+    width: 220px;
+    height: 45px;
+  }
+}

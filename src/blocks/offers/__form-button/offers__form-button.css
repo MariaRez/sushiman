@@ -14,3 +14,35 @@
   cursor: pointer;
   position: relative;
 }
+
+@media (max-width: 1280px) {
+  .offers__form-button {
+    width: 165px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .offers__form-button {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offers__form-button {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .offers__form-button {
+    width: 75px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
