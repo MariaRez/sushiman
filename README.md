@@ -25,7 +25,7 @@
 
 Что дальше
 - about us
-- offer bg
+- learn-illustration
 
 
 Разрешения

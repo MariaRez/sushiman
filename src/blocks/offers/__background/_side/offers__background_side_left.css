@@ -2,3 +2,31 @@
   left: 60px;
   top: -370px;
 }
+
+@media (max-width: 1280px) {
+  .offers__background_side_left {
+    left: 55px;
+    top: -324px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .offers__background_side_left {
+    left: 50px;
+    top: -250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offers__background_side_left {
+    left: 42px;
+    top: -190px;
+  }
+}
+
+@media (max-width: 425px) {
+  .offers__background_side_left {
+    left: 25px;
+    top: -105px;
+  }
+}
