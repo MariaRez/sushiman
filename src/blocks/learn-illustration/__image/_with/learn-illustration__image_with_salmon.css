@@ -4,3 +4,39 @@
   width: 224px;
   height: 200px;
 }
+
+@media (max-width: 1280px) {
+  .learn-illustration__image_with_salmon {
+    top: 69px;
+    left: 59px;
+    width: 200px;
+    height: 179px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .learn-illustration__image_with_salmon {
+    top: 60px;
+    left: 40px;
+    width: 160px;
+    height: 143px;
+  }
+}
+
+@media (max-width: 768px) {
+  .learn-illustration__image_with_salmon {
+    top: 66px;
+    left: 20px;
+    width: 135px;
+    height: 121px;
+  }
+}
+
+@media (max-width: 425px) {
+  .learn-illustration__image_with_salmon {
+    top: 150px;
+    left: 10px;
+    width: 75px;
+    height: 67px;
+  }
+}

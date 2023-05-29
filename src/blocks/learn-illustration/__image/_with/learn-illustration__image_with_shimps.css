@@ -4,3 +4,39 @@
   width: 240px;
   height: 160px;
 }
+
+@media (max-width: 1280px) {
+  .learn-illustration__image_with_shimps {
+    top: 73px;
+    left: 59px;
+    width: 214px;
+    height: 143px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .learn-illustration__image_with_shimps {
+    top: 65px;
+    left: 40px;
+    width: 171px;
+    height: 114px;
+  }
+}
+
+@media (max-width: 768px) {
+  .learn-illustration__image_with_shimps {
+    top: 84px;
+    left: 20px;
+    width: 128px;
+    height: 86px;
+  }
+}
+
+@media (max-width: 425px) {
+  .learn-illustration__image_with_shimps {
+    top: 151px;
+    left: 10px;
+    width: 71px;
+    height: 48px;
+  }
+}
