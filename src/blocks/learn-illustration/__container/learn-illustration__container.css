@@ -15,3 +15,15 @@
     height: 253px;
   }
 }
+
+@media (max-width: 768px) {
+  .learn-illustration__container {
+    height: 273px;
+  }
+}
+
+@media (max-width: 425px) {
+  .learn-illustration__container {
+    height: 150px;
+  }
+}

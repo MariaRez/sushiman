@@ -22,10 +22,10 @@
 - description
 - main-illust
 - offer
+- learn-illustration
 
 Что дальше
 - about us
-- learn-illustration
 
 
 Разрешения
