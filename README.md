@@ -23,9 +23,10 @@
 - main-illust
 - offer
 - learn-illustration
+- about us
 
 Что дальше
-- about us
+- trending
 
 
 Разрешения

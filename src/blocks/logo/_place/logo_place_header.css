@@ -12,13 +12,12 @@
 @media (max-width: 768px) {
   .logo_place_header {
     top: 30px;
-    left: 50px;
+    left: 30px;
   }
 }
 
 @media (max-width: 425px) {
   .logo_place_header {
     top: 20px;
-    left: 30px;
   }
 }
