@@ -7,3 +7,17 @@
   text-align: center;
   color: inherit;
 }
+
+@media (max-width: 1024px) {
+  .popular__link-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .popular__link-text {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

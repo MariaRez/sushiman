@@ -10,3 +10,9 @@
   overflow: hidden;
   transition: transform 0.5s ease;
 }
+
+@media (max-width: 1439px) {
+  .carousel__items {
+    column-gap: 50px;
+  }
+}

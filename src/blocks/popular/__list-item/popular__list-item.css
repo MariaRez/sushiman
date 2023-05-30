@@ -23,3 +23,38 @@
   background-color: var(--color2);
   color: var(--color1);
 }
+
+@media (max-width: 1280px) {
+  .popular__list-item {
+    height: 60px;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .popular__list-item {
+    height: 43px;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 15px;
+    column-gap: 7px;
+  }
+}
+
+@media (max-width: 768px) {
+  .popular__list-item {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .popular__list-item {
+    height: 30px;
+    padding: 0 7px;
+    column-gap: 5px;
+  }
+}

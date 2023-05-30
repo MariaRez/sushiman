@@ -24,10 +24,14 @@
 - offer
 - learn-illustration
 - about us
+- trending
+- popular
 
 Что дальше
-- trending
 
+- carousel
+- стрелки
+- выбор категории
 
 Разрешения
 1440

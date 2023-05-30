@@ -11,3 +11,19 @@
   color: var(--color2);
   position: relative;
 }
+
+@media (max-width: 1024px) {
+  .popular__link {
+    width: 142px;
+    height: 43px;
+    column-gap: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .popular__link {
+    width: 115px;
+    height: 30px;
+    column-gap: 5px;
+  }
+}

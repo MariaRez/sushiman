@@ -2,3 +2,17 @@
   width: 24px;
   height: 24px;
 }
+
+@media (max-width: 1024px) {
+  .popular__link-text-arrow {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .popular__link-text-arrow {
+    width: 15px;
+    height: 15px;
+  }
+}
