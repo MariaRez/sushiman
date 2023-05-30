@@ -16,3 +16,17 @@
     column-gap: 50px;
   }
 }
+
+@media (max-width: 1280px) {
+  .carousel__items {
+    column-gap: 35px;
+    max-width: 830px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel__items {
+    column-gap: 25px;
+    max-width: 610px;
+  }
+}

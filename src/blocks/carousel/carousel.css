@@ -4,10 +4,31 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
+  max-width: 1280px;
 }
 
 @media (max-width: 1280px) {
   .carousel {
     margin-bottom: 40px;
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel {
+    margin-bottom: 32px;
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel {
+    margin-bottom: 12px;
   }
 }

@@ -18,3 +18,30 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 1280px) {
+  .carousel__item-rating {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  
+  .carousel__item-rating::before {
+    margin-right: 9px;
+    width: 18px;
+    height: 16.5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel__item-rating {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  .carousel__item-rating::before {
+    content: url(/src/images/star-m.svg);
+    margin-right: 5px;
+    width: 15px;
+    height: 13.5px;
+  }
+}

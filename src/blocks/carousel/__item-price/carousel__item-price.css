@@ -7,3 +7,17 @@
   letter-spacing: -0.01em;
   color: var(--color2);
 }
+
+@media (max-width: 1280px) {
+  .carousel__item-price {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .carousel__item-price {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

@@ -4,3 +4,19 @@
   color: var(--color5);
   margin-top: 43px;
 }
+
+@media (max-width: 1280px) {
+  .carousel__item-header_checked {
+    font-size: 27px;
+    line-height: 36px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel__item-header_checked {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 32px;
+  }
+}

@@ -10,3 +10,31 @@
   width: 27px;
   height: 25px;
 }
+
+@media (max-width: 1280px) {
+  .carousel__item-rating_checked {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  
+  .carousel__item-rating_checked::before {
+    content: url(/src/images/star-big-l.svg);
+    margin-right: 9px;
+    width: 24px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel__item-rating_checked {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .carousel__item-rating_checked::before {
+    content: url(/src/images/star-big-m.svg);
+    margin-right: 5px;
+    width: 20px;
+    height: 17px;
+  }
+}

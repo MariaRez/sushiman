@@ -19,7 +19,7 @@
 
 @media (max-width: 1280px) {
   .body {
-    grid-template-columns: 400px minmax(625px, 840px);
+    grid-template-columns: 400px minmax(625px, 880px);
   }
 }
 

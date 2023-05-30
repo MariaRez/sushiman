@@ -8,3 +8,17 @@
 .carousel__item_checked:hover {
   background-color: var(--color2);
 }
+
+@media (max-width: 1280px) {
+  .carousel__item_checked {
+    min-width: 300px;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel__item_checked {
+    min-width: 220px;
+    min-height: 257px;
+  }
+}

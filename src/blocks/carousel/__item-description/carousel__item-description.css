@@ -5,3 +5,17 @@
   align-items: center;
   column-gap: 59px;
 }
+
+@media (max-width: 1280px) {
+  .carousel__item-description {
+    margin-top: 28px;
+    column-gap: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel__item-description {
+    margin-top: 22px;
+    column-gap: 35px;
+  }
+}
