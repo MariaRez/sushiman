@@ -9,3 +9,27 @@
   position: absolute;
   max-width: 120px;
 }
+
+@media (max-width: 1024px) {
+  .trending__image-block-text {
+    font-size: 80px;
+    line-height: 92px;
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trending__image-block-text {
+    font-size: 60px;
+    line-height: 69px;
+    max-width: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .trending__image-block-text {
+    font-size: 33px;
+    line-height: 38px;
+    max-width: 33px;
+  }
+}

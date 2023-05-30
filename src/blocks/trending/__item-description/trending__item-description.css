@@ -1,9 +1,41 @@
 .trending__item-description {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 64px;
   line-height: 90p;
   color: var(--color6);
   margin-bottom: 32px;
+}
+
+@media (max-width: 1280px) {
+  .trending__item-description {
+    font-size: 57px;
+    line-height: 80px;
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .trending__item-description {
+    font-size: 46px;
+    line-height: 64px;
+    margin-bottom: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trending__item-description {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 425px) {
+  .trending__item-description {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
 }

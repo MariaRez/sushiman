@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .trending__image-block_changed {
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+}

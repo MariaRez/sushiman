@@ -4,8 +4,24 @@
   display: grid;
   grid-template-rows: repeat(2, 640px);
   grid-template-columns: repeat(2, 1fr);
-  /* justify-content: stretch;
-  justify-items: stretch;
-  align-items: stretch;
-  align-content: stretch; */
+}
+
+@media (max-width: 1280px) {
+  .trending {
+    grid-template-rows: repeat(2, 550px);
+  } 
+}
+
+@media (max-width: 768px) {
+  .trending {
+    grid-template-rows: 300px 150px 300px 150px;
+    grid-template-columns: 1fr;
+  } 
+}
+
+@media (max-width: 425px) {
+  .trending {
+    grid-template-rows: 250px 100px 250px 100px;
+    grid-template-columns: 1fr;
+  } 
 }

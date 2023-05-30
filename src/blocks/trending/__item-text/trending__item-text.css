@@ -9,3 +9,28 @@
   opacity: 0.8;
   margin-bottom: 32px;
 }
+
+@media (max-width: 1024px) {
+  .trending__item-text {
+    font-size: 13px;
+    line-height: 27px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .trending__item-text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .trending__item-text {
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 8px;
+    max-width: 210px;
+  }
+}

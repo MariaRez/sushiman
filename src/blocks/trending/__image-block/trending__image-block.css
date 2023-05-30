@@ -6,3 +6,15 @@
   align-items: center;
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .trending__image-block {
+    padding: 25px 150px;
+  }
+}
+
+@media (max-width: 425px) {
+  .trending__image-block {
+    padding: 10px 120px;
+  }
+}

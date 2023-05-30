@@ -2,3 +2,17 @@
   top: 64px;
   left: 80px;
 }
+
+@media (max-width: 768px) {
+  .trending__image-block-text_order_second {
+    top: 6px;
+    left: 35%;
+  }
+}
+
+@media (max-width: 425px) {
+  .trending__image-block-text_order_second {
+    top: 12px;
+    left: 35%;
+  }
+}

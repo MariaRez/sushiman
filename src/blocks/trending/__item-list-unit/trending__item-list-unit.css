@@ -20,3 +20,41 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 1024px) {
+  .trending__item-list-unit {
+    font-size: 14px;
+    line-height: 26px;
+    width: 130px;
+  }
+
+  .trending__item-list-unit::before {
+    margin-right: 11px;
+    width: 20px;
+    height: 20px;
+    content: url(/src/images/check-s.svg);
+  }
+}
+
+@media (max-width: 768px) {
+  .trending__item-list-unit {
+    font-size: 12px;
+    line-height: 20px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 425px) {
+  .trending__item-list-unit {
+    font-size: 10px;
+    line-height: 15px;
+    width: 90px;
+  }
+
+  .trending__item-list-unit::before {
+    margin-right: 8px;
+    width: 14px;
+    height: 14px;
+    content: url(/src/images/check-xs.svg);
+  }
+}
