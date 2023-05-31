@@ -2,17 +2,23 @@
 
 const carousel = document.querySelector(".carousel");
 const carouselItems = carousel.querySelector(".carousel__items");
-const arrowNext = carousel.querySelector(".carousel__arrow_to_left");
-const arrowPrev = carousel.querySelector(".carousel__arrow_to_right");
+const arrowToTheLeft = carousel.querySelector(".carousel__arrow_to_left");
+const arrowToTheRight = carousel.querySelector(".carousel__arrow_to_right");
+
+// Инициализация выбранного элемента при загрузке страницы
+updateSelectedCarouselItemLeft();
 
 // Устанавливаем обработчики событий на стрелки
-arrowNext.addEventListener("click", shiftCarouselItemsRight);
-arrowPrev.addEventListener("click", shiftCarouselItemsLeft);
+arrowToTheLeft.addEventListener("click", shiftCarouselItemsLeft);
+arrowToTheRight.addEventListener("click", shiftCarouselItemsRight);
+
+// проверка при изменении разрешения экрана
+window.addEventListener('DOMContentLoaded', checkScreenSize);
+window.addEventListener('resize', checkScreenSize);
 
 // для проверки размера экрана и вызова соответствующей функции обновления выбранного элемента карусели
 function checkScreenSize() {
   const screenWidth = window.innerWidth;
-  console.log(screenWidth);
   if (screenWidth <= 768) {
     updateSelectedCarouselItemRight();
   } else {
@@ -20,32 +26,32 @@ function checkScreenSize() {
   }
 }
 
-// Функция для смещения элементов карусели влево
-function shiftCarouselItemsLeft() {
+// Функция для смещения элементов карусели вправо
+function shiftCarouselItemsRight() {
   const firstItem = carouselItems.firstElementChild;
   carouselItems.removeChild(firstItem);
   carouselItems.appendChild(firstItem);
   carouselItems.style.transform = "translateX(-120px)";
   setTimeout(() => {
     carouselItems.style.transform = "translateX(0)";
-    updateSelectedCarouselItemLeft();
+    updateSelectedCarouselItemRight();
   }, 0);
 }
 
-// Функция для смещения элементов карусели вправо
-function shiftCarouselItemsRight() {
+// Функция для смещения элементов карусели влево
+function shiftCarouselItemsLeft() {
   const lastItem = carouselItems.lastElementChild;
   carouselItems.removeChild(lastItem);
   carouselItems.prepend(lastItem);
   carouselItems.style.transform = "translateX(120px)";
   setTimeout(() => {
     carouselItems.style.transform = "translateX(0)";
-    updateSelectedCarouselItemRight();
+    updateSelectedCarouselItemLeft();
   }, 0);
 }
 
-// Функция для обновления выбранного элемента карусели при нажатии кнопки налево
-function updateSelectedCarouselItemLeft() {
+// Функция для обновления выбранного элемента карусели при нажатии кнопки направо
+function updateSelectedCarouselItemRight() {
   const items = carouselItems.querySelectorAll(".carousel__item");
   const carouselWidth = carousel.offsetWidth;
   const itemWidth = items[0].offsetWidth;
@@ -86,8 +92,8 @@ function updateSelectedCarouselItemLeft() {
   });
 }
 
-// Функция для обновления выбранного элемента карусели при нажатии кнопки направо
-function updateSelectedCarouselItemRight() {
+// Функция для обновления выбранного элемента карусели при нажатии кнопки налево
+function updateSelectedCarouselItemLeft() {
   const items = carouselItems.querySelectorAll(".carousel__item");
   const carouselWidth = carousel.offsetWidth;
   const itemWidth = items[0].offsetWidth;
@@ -129,12 +135,6 @@ function updateSelectedCarouselItemRight() {
     }
   });
 }
-
-// проверка при изменении разрешения экрана
-window.addEventListener('resize', checkScreenSize);
-
-// Инициализация выбранного элемента при загрузке страницы
-updateSelectedCarouselItemRight();
 
 // МОДАЛЬНОЕ ОКНО
 
