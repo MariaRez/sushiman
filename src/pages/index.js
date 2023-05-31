@@ -9,6 +9,16 @@ const arrowPrev = carousel.querySelector(".carousel__arrow_to_right");
 arrowNext.addEventListener("click", shiftCarouselItemsRight);
 arrowPrev.addEventListener("click", shiftCarouselItemsLeft);
 
+// для проверки размера экрана и вызова соответствующей функции обновления выбранного элемента карусели
+function checkScreenSize() {
+  const screenWidth = window.innerWidth;
+  if (screenWidth <= 768) {
+    updateSelectedCarouselItemLeft();
+  } else {
+    updateSelectedCarouselItemRight();
+  }
+}
+
 // Функция для смещения элементов карусели влево
 function shiftCarouselItemsLeft() {
   const firstItem = carouselItems.firstElementChild;
@@ -23,10 +33,10 @@ function shiftCarouselItemsLeft() {
 
 // Функция для смещения элементов карусели вправо
 function shiftCarouselItemsRight() {
-  const lastItem = carouselItems.lastElementChild;
-  carouselItems.removeChild(lastItem);
-  carouselItems.prepend(lastItem);
-  carouselItems.style.transform = "translateX(120px)";
+  const firstItem = carouselItems.firstElementChild;
+  carouselItems.removeChild(firstItem);
+  carouselItems.appendChild(firstItem);
+  carouselItems.style.transform = "translateX(-120px)";
   setTimeout(() => {
     carouselItems.style.transform = "translateX(0)";
     updateSelectedCarouselItemRight();
@@ -39,9 +49,13 @@ function updateSelectedCarouselItemLeft() {
   const carouselWidth = carousel.offsetWidth;
   const itemWidth = items[0].offsetWidth;
   const currentIndex = Math.round(carouselItems.scrollLeft / itemWidth);
-  const selectedIndex = Math.floor(
-    (currentIndex + carouselWidth / itemWidth) / 2
-  );
+  let selectedIndex;
+
+  if (carouselWidth <= 768) {
+    selectedIndex = 0;
+  } else {
+    selectedIndex = Math.floor((currentIndex + carouselWidth / itemWidth) / 2);
+  }
 
   items.forEach((item, index) => {
     if (index === selectedIndex) {
@@ -70,6 +84,7 @@ function updateSelectedCarouselItemLeft() {
     }
   });
 }
+
 
 // Функция для обновления выбранного элемента карусели при нажатии кнопки направо
 function updateSelectedCarouselItemRight() {
@@ -77,9 +92,15 @@ function updateSelectedCarouselItemRight() {
   const carouselWidth = carousel.offsetWidth;
   const itemWidth = items[0].offsetWidth;
   const currentIndex = Math.round(carouselItems.scrollLeft / itemWidth);
-  const selectedIndex = Math.floor(
-    (currentIndex + carouselWidth / itemWidth) / 2 - 1
-  );
+  let selectedIndex;
+
+  if (carouselWidth <= 768) {
+    selectedIndex = Math.floor((currentIndex + carouselWidth / itemWidth) / 2);
+  } else {
+    selectedIndex = Math.floor(
+      (currentIndex + carouselWidth / itemWidth) / 2 - 1
+    );
+  }
 
   items.forEach((item, index) => {
     if (index === selectedIndex) {
@@ -108,6 +129,9 @@ function updateSelectedCarouselItemRight() {
     }
   });
 }
+
+window.addEventListener('DOMContentLoaded', checkScreenSize);
+window.addEventListener('resize', checkScreenSize);
 
 // Инициализация выбранного элемента при загрузке страницы
 updateSelectedCarouselItemRight();

@@ -45,3 +45,17 @@
     height: 13.5px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__item-rating {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  
+  .carousel__item-rating::before {
+    content: url(/src/images/star-s.svg);
+    margin-right: 3px;
+    width: 10px;
+    height: 8px;
+  }
+}

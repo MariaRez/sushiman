@@ -22,3 +22,10 @@
     min-height: 257px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__item_checked {
+    min-width: 200px;
+    min-height: 234px;
+  }
+}

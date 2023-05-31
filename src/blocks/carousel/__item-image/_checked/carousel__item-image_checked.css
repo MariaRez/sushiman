@@ -13,3 +13,9 @@
     width: 130px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__item-image_checked {
+    width: 119px;
+  }
+}

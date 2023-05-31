@@ -15,9 +15,16 @@
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
   .carousel__item-price {
     font-size: 12px;
     line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel__item-price {
+    font-size: 10px;
+    line-height: 15px;
   }
 }

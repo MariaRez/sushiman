@@ -30,3 +30,10 @@
     min-height: 207px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__item {
+    min-width: 155px;
+    min-height: 188px;
+  }
+}

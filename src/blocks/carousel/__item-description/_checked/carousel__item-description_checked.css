@@ -16,3 +16,10 @@
     column-gap: 50px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__item-description_checked {
+    margin-top: 22px;
+    column-gap: 40px;
+  }
+}

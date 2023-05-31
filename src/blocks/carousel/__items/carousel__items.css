@@ -30,3 +30,10 @@
     max-width: 610px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__items {
+    column-gap: 20px;
+    max-width: 200px;
+  }
+}

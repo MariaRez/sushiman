@@ -38,3 +38,17 @@
     height: 17px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__item-rating_checked {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .carousel__item-rating_checked::before {
+    content: url(/src/images/star-big-s.svg);
+    margin-right: 3px;
+    width: 15px;
+    height: 12px;
+  }
+}

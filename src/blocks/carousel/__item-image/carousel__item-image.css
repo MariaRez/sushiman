@@ -13,3 +13,9 @@
     width: 82px;
   }
 }
+
+@media (max-width: 768px) {
+  .carousel__item-image {
+    width: 75px;
+  }
+}

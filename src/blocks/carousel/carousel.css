@@ -23,6 +23,7 @@
 
 @media (max-width: 768px) {
   .carousel {
+    max-width: 300px;
     margin-bottom: 20px;
   }
 }
