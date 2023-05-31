@@ -1,21 +1,25 @@
 .carousel__item-image {
   width: 135px;
+  height: 105px;
 }
 
 @media (max-width: 1280px) {
   .carousel__item-image {
     width: 120px;
+    height: 92px;
   }
 }
 
 @media (max-width: 1024px) {
   .carousel__item-image {
     width: 82px;
+    height: 65px;
   }
 }
 
 @media (max-width: 768px) {
   .carousel__item-image {
     width: 75px;
+    height: 57px;
   }
 }

@@ -1,21 +1,25 @@
 .carousel__item-image_checked {
   width: 214px;
+  height: 165px;
 }
 
 @media (max-width: 1280px) {
   .carousel__item-image_checked {
     width: 190px;
+    height: 150px;
   }
 }
 
 @media (max-width: 1024px) {
   .carousel__item-image_checked {
     width: 130px;
+    height: 100px;
   }
 }
 
 @media (max-width: 768px) {
   .carousel__item-image_checked {
     width: 119px;
+    height: 91px;
   }
 }
