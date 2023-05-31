@@ -12,10 +12,11 @@ arrowPrev.addEventListener("click", shiftCarouselItemsLeft);
 // для проверки размера экрана и вызова соответствующей функции обновления выбранного элемента карусели
 function checkScreenSize() {
   const screenWidth = window.innerWidth;
+  console.log(screenWidth);
   if (screenWidth <= 768) {
-    updateSelectedCarouselItemLeft();
-  } else {
     updateSelectedCarouselItemRight();
+  } else {
+    updateSelectedCarouselItemLeft();
   }
 }
 
@@ -130,7 +131,6 @@ function updateSelectedCarouselItemRight() {
 }
 
 // проверка при изменении разрешения экрана
-window.addEventListener('DOMContentLoaded', checkScreenSize);
 window.addEventListener('resize', checkScreenSize);
 
 // Инициализация выбранного элемента при загрузке страницы
