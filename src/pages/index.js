@@ -2,33 +2,21 @@
 
 const carousel = document.querySelector(".carousel");
 const carouselItems = carousel.querySelector(".carousel__items");
-const arrowNext = carousel.querySelector(".carousel__arrow_to_left");
-const arrowPrev = carousel.querySelector(".carousel__arrow_to_right");
+const arrowPrev = carousel.querySelector(".carousel__arrow_to_left");
+const arrowNext = carousel.querySelector(".carousel__arrow_to_right");
 
 // Устанавливаем обработчики событий на стрелки
-arrowNext.addEventListener("click", shiftCarouselItemsRight);
 arrowPrev.addEventListener("click", shiftCarouselItemsLeft);
+arrowNext.addEventListener("click", shiftCarouselItemsRight);
 
 // для проверки размера экрана и вызова соответствующей функции обновления выбранного элемента карусели
 function checkScreenSize() {
   const screenWidth = window.innerWidth;
   if (screenWidth <= 768) {
-    updateSelectedCarouselItemLeft();
-  } else {
     updateSelectedCarouselItemRight();
-  }
-}
-
-// Функция для смещения элементов карусели влево
-function shiftCarouselItemsLeft() {
-  const firstItem = carouselItems.firstElementChild;
-  carouselItems.removeChild(firstItem);
-  carouselItems.appendChild(firstItem);
-  carouselItems.style.transform = "translateX(-120px)";
-  setTimeout(() => {
-    carouselItems.style.transform = "translateX(0)";
+  } else {
     updateSelectedCarouselItemLeft();
-  }, 0);
+  }
 }
 
 // Функция для смещения элементов карусели вправо
@@ -43,8 +31,20 @@ function shiftCarouselItemsRight() {
   }, 0);
 }
 
+// Функция для смещения элементов карусели влево
+function shiftCarouselItemsLeft() {
+  const firstItem = carouselItems.firstElementChild;
+  carouselItems.removeChild(firstItem);
+  carouselItems.appendChild(firstItem);
+  carouselItems.style.transform = "translateX(-120px)";
+  setTimeout(() => {
+    carouselItems.style.transform = "translateX(0)";
+    updateSelectedCarouselItemLeft();
+  }, 0);
+}
+
 // Функция для обновления выбранного элемента карусели при нажатии кнопки налево
-function updateSelectedCarouselItemLeft() {
+function updateSelectedCarouselItemRight() {
   const items = carouselItems.querySelectorAll(".carousel__item");
   const carouselWidth = carousel.offsetWidth;
   const itemWidth = items[0].offsetWidth;
@@ -87,7 +87,7 @@ function updateSelectedCarouselItemLeft() {
 
 
 // Функция для обновления выбранного элемента карусели при нажатии кнопки направо
-function updateSelectedCarouselItemRight() {
+function updateSelectedCarouselItemLeft() {
   const items = carouselItems.querySelectorAll(".carousel__item");
   const carouselWidth = carousel.offsetWidth;
   const itemWidth = items[0].offsetWidth;
@@ -134,7 +134,7 @@ window.addEventListener('DOMContentLoaded', checkScreenSize);
 window.addEventListener('resize', checkScreenSize);
 
 // Инициализация выбранного элемента при загрузке страницы
-updateSelectedCarouselItemRight();
+updateSelectedCarouselItemLeft();
 
 // МОДАЛЬНОЕ ОКНО
 
