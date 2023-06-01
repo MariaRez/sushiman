@@ -1,4 +1,4 @@
-const cards = [
+export const menuItems = [
   {
     name: "Chezu Sushi",
     image: "images/ChezuSushi.svg",
@@ -123,6 +123,13 @@ const cards = [
     image: "https://www.svgrepo.com/show/244420/tabasco.svg",
     rating: 4.9,
     price: "$2.00",
+    category: "Others",
+  },
+  {
+    name: "Sweet Tabasco",
+    image: "https://www.svgrepo.com/show/244420/tabasco.svg",
+    rating: 4.9,
+    price: "$3.00",
     category: "Others",
   },
   {

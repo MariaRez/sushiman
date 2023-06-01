@@ -179,130 +179,7 @@
           alt="Arrow to the left"
           class="carousel__arrow carousel__arrow_to_left"
         />
-        <ul class="carousel__items">
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/ChezuSushi.svg"
-              alt="Chezu Sushi"
-            />
-            <h4 class="carousel__item-header">Chezu Sushi</h4>
-            <div class="carousel__item-description">
-              <span class="carousel__item-rating">4.7</span>
-              <span class="carousel__item-price">$16.00</span>
-            </div>
-          </li>
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/OriginaleSushi.svg"
-              alt="Originale Sushi"
-            />
-            <h4 class="carousel__item-header">
-              Originale Sushi
-            </h4>
-            <div
-              class="carousel__item-description"
-            >
-              <span class="carousel__item-rating"
-                >4.8</span
-              >
-              <span class="carousel__item-price"
-                >$21.00</span
-              >
-            </div>
-          </li>
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/RamenLegendo.svg"
-              alt="Ramen Legendo"
-            />
-            <h4 class="carousel__item-header">Ramen Legendo</h4>
-            <div class="carousel__item-description">
-              <span class="carousel__item-rating">4.7</span>
-              <span class="carousel__item-price">$16.00</span>
-            </div>
-          </li>
-          <!-- добавляем дополнительные элементы для отработки -->
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/ChezuSushi.svg"
-              alt="Chezu Sushi"
-            />
-            <h4 class="carousel__item-header">Chezu Sushi</h4>
-            <div class="carousel__item-description">
-              <span class="carousel__item-rating">4.7</span>
-              <span class="carousel__item-price">$16.00</span>
-            </div>
-          </li>
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/OriginaleSushi.svg"
-              alt="Originale Sushi"
-            />
-            <h4 class="carousel__item-header">
-              Originale Sushi
-            </h4>
-            <div
-              class="carousel__item-description"
-            >
-              <span class="carousel__item-rating"
-                >4.8</span
-              >
-              <span class="carousel__item-price"
-                >$21.00</span
-              >
-            </div>
-          </li>
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/RamenLegendo.svg"
-              alt="Ramen Legendo"
-            />
-            <h4 class="carousel__item-header">Ramen Legendo</h4>
-            <div class="carousel__item-description">
-              <span class="carousel__item-rating">4.7</span>
-              <span class="carousel__item-price">$16.00</span>
-            </div>
-          </li>
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/ChezuSushi.svg"
-              alt="Chezu Sushi"
-            />
-            <h4 class="carousel__item-header">Chezu Sushi</h4>
-            <div class="carousel__item-description">
-              <span class="carousel__item-rating">4.7</span>
-              <span class="carousel__item-price">$16.00</span>
-            </div>
-          </li>
-          <li class="carousel__item">
-            <img
-              class="carousel__item-image"
-              src="/src/images/OriginaleSushi.svg"
-              alt="Originale Sushi"
-            />
-            <h4 class="carousel__item-header">
-              Originale Sushi
-            </h4>
-            <div
-              class="carousel__item-description"
-            >
-              <span class="carousel__item-rating"
-                >4.8</span
-              >
-              <span class="carousel__item-price"
-                >$21.00</span
-              >
-            </div>
-          </li>
-          <!-- заканчиваются дополнительные -->
-        </ul> 
+        <ul class="carousel__items"></ul> 
         <img
           src="/src/images/arrow-popular.svg"
           alt="Arrow to the right"
@@ -424,6 +301,17 @@
         <img src="/src/images/sushi-shrimp.svg" alt="Shrimp sushi" class="modal__image">
       </div>
     </div>
-    <script src="./pages/index.js"></script>
+    <template class="template">
+      <li class="carousel__item">
+        <img class="carousel__item-image"/>
+        <h4 class="carousel__item-header"></h4>
+        <div class="carousel__item-description">
+          <span class="carousel__item-rating"></span>
+          <span class="carousel__item-price"></span>
+        </div>
+      </li>
+
+    </template>
+    <script type="module" src="./pages/index.js"></script>
   </body>
 </html>

@@ -1,12 +1,11 @@
+import { menuItems } from "../utils/data.js";
+
 // КАРУСЕЛЬ
 
 const carousel = document.querySelector(".carousel");
 const carouselItems = carousel.querySelector(".carousel__items");
 const arrowToTheLeft = carousel.querySelector(".carousel__arrow_to_left");
 const arrowToTheRight = carousel.querySelector(".carousel__arrow_to_right");
-
-// Инициализация выбранного элемента при загрузке страницы
-updateSelectedCarouselItem();
 
 // для проверки размера экрана и вызова соответствующей функции обновления выбранного элемента карусели
 // Создаем обработчик события resize с использованием debounce
@@ -113,3 +112,34 @@ window.addEventListener("click", function(event) {
     modal.style.display = "none";
   }
 });
+
+// КАРТОЧКИ В КАРУСЕЛИ ПОДГРУЗКА
+const template = document.querySelector('.template').content;
+const items = document.querySelector('.carousel__items');
+
+const prependToContainer = (container, element) => {
+  container.prepend(element);
+}
+
+function create (element) {
+  const htmlElement = template.cloneNode(true); 
+  htmlElement.querySelector('.carousel__item-header').textContent = element.name;
+  htmlElement.querySelector('.carousel__item-rating').textContent = element.rating;
+  htmlElement.querySelector('.carousel__item-price').textContent = element.price;
+  const image = htmlElement.querySelector('.carousel__item-image');
+  image.src = element.image;
+  image.alt = element.name;
+  return htmlElement;
+};
+
+const reverseMenuItems = menuItems.reverse();
+
+function start () {
+  reverseMenuItems.forEach((element) => {
+    prependToContainer(items,create(element));
+  });
+  // Инициализация выбранного элемента при загрузке страницы
+  updateSelectedCarouselItem();
+}
+
+start();
