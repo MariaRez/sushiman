@@ -1,5 +1,6 @@
 .popular__list-item {
   height: 64px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -12,9 +13,17 @@
   letter-spacing: -0.01em;
   color: var(--color2);
   padding: 0 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   column-gap: 10px;
+  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+  -o-transition: background-color 0.5s ease, color 0.5s ease;
   transition: background-color 0.5s ease, color 0.5s ease;
   cursor: pointer;
 }
@@ -39,6 +48,8 @@
     font-size: 12px;
     line-height: 20px;
     padding: 0 15px;
+    -webkit-column-gap: 7px;
+    -moz-column-gap: 7px;
     column-gap: 7px;
   }
 }
@@ -55,6 +66,8 @@
   .popular__list-item {
     height: 30px;
     padding: 0 7px;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
     column-gap: 5px;
   }
 }

@@ -1,19 +1,32 @@
 .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 64px;
+  -moz-column-gap: 64px;
   column-gap: 64px;
+  -webkit-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 @media (max-width: 1280px) {
   .links {
+    -webkit-column-gap: 32px;
+    -moz-column-gap: 32px;
     column-gap: 32px;
   }
 }
 
 @media (max-width: 768px) {
   .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     row-gap: 7px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }

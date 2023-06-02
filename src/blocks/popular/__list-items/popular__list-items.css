@@ -1,12 +1,20 @@
 .popular__list-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
   column-gap: 24px;
   margin-bottom: 64px;
 }
 
 @media (max-width: 1280px) {
   .popular__list-items {
+    -webkit-column-gap: 22px;
+    -moz-column-gap: 22px;
     column-gap: 22px;
     margin-bottom: 40px;
   }
@@ -14,6 +22,8 @@
 
 @media (max-width: 1024px) {
   .popular__list-items {
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
     column-gap: 20px;
     margin-bottom: 32px;
   }
@@ -21,9 +31,12 @@
 
 @media (max-width: 768px) {
   .popular__list-items {
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
     column-gap: 16px;
     row-gap: 10px;
     margin-bottom: 20px;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     max-width: 300px;
   }
@@ -31,6 +44,8 @@
 
 @media (max-width: 425px) {
   .popular__list-items {
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
     column-gap: 10px;
     margin-bottom: 12px;
     max-width: 260px;

@@ -1,6 +1,8 @@
 .modal__background_side_botton {
   right: 75px;
   bottom: -30px;
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
   transform: rotate(60deg);
 }
 

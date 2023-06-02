@@ -3,9 +3,17 @@
   height: 64px;
   background-color: var(--color6);
   border-radius: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
   column-gap: 16px;
   text-decoration: none;
   color: var(--color2);
@@ -16,6 +24,8 @@
   .popular__link {
     width: 142px;
     height: 43px;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
     column-gap: 10px;
   }
 }
@@ -24,6 +34,8 @@
   .popular__link {
     width: 115px;
     height: 30px;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
     column-gap: 5px;
   }
 }

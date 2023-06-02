@@ -1,8 +1,14 @@
 .header {
   grid-area: header;
   background-color: var(--color2);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: end;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   vertical-align: middle;
   padding: 52px 80px 103px 0;

@@ -1,7 +1,12 @@
 .trending__item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   max-width: 365px;
+  -webkit-column-gap: 79px;
+  -moz-column-gap: 79px;
   column-gap: 79px;
   row-gap: 24px;
 }
@@ -9,6 +14,8 @@
 @media (max-width: 1024px) {
   .trending__item-list {
     max-width: 325px;
+    -webkit-column-gap: 65px;
+    -moz-column-gap: 65px;
     column-gap: 65px;
     row-gap: 18px;
   }
@@ -17,6 +24,8 @@
 @media (max-width: 768px) {
   .trending__item-list {
     max-width: 290px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
     column-gap: 50px;
     row-gap: 15px;
   }
@@ -25,6 +34,8 @@
 @media (max-width: 425px) {
   .trending__item-list {
     max-width: 210px;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
     column-gap: 30px;
     row-gap: 10px;
   }

@@ -17,6 +17,8 @@
   font-size: 16px;
   line-height: 32px;
   color: var(--color2);
+  -webkit-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
@@ -24,6 +26,42 @@
 .search__input:active {
   border: none;
   outline: none;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search__input::-moz-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search__input:-ms-input-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search__input::-ms-input-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .search__input::placeholder {
@@ -38,12 +76,16 @@
 .search:hover .search__input {
   visibility: visible;
   opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
 .search__input:hover .search__input {
   visibility: visible;
   opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
 }
 
@@ -62,6 +104,26 @@
     top: -9px;
     right: 30px;
     padding: 0 20px;
+  }
+
+  .search__input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .search__input::-moz-placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .search__input:-ms-input-placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .search__input::-ms-input-placeholder {
+    font-size: 12px;
+    line-height: 15px;
   }
 
   .search__input::placeholder {
@@ -85,9 +147,28 @@
     right: 20px;
   }
 
+  .search__input::-webkit-input-placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .search__input::-moz-placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .search__input:-ms-input-placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .search__input::-ms-input-placeholder {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
   .search__input::placeholder {
     font-size: 10px;
     line-height: 12px;
   }
 }
-

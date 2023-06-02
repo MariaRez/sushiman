@@ -1,6 +1,13 @@
 .trending__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding-left: 80px;
 }
@@ -20,6 +27,7 @@
 @media (max-width: 768px) {
   .trending__item {
     padding-left: 0;
+    -ms-grid-column-align: center;
     justify-self: center;
   }
 }

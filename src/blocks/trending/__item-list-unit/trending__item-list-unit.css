@@ -6,7 +6,11 @@
   line-height: 32px;
   color: var(--color8);
   width: 143px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 

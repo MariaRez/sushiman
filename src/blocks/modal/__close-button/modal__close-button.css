@@ -6,6 +6,8 @@
   float: right;
   font-size: 45px;
   font-weight: bold;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 

@@ -2,23 +2,34 @@
   grid-area: footer;
   background-color: var(--color10);
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-column-gap: 153px;
+  -moz-column-gap: 153px;
   column-gap: 153px;
   padding: 48px 149px 48px 0;
 }
 
 @media (max-width: 1280px) {
   .footer {
+    -webkit-column-gap: 80px;
+    -moz-column-gap: 80px;
     column-gap: 80px;
   }
 }
 
-
 @media (max-width: 768px) {
   .footer {
     padding: 20px 30px 20px 0;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
     column-gap: 20px;
   }
 }
