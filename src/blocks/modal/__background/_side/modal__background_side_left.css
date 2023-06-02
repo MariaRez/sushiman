@@ -2,3 +2,15 @@
   left: 60px;
   top: 0px;
 }
+
+@media (max-width: 1024px) {
+  .modal__background_side_left {
+    left: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__background_side_left {
+    left: 36px;
+  }
+}

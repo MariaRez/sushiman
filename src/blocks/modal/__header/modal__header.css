@@ -5,4 +5,20 @@
   font-size: 32px;
   line-height: 43px;
   color: var(--color6);
+  max-width: 300px;
+}
+
+@media (max-width: 1024px) {
+  .modal__header {
+    font-size: 22px;
+    line-height: 32px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__header {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }

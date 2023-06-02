@@ -8,3 +8,17 @@
   color: var(--color1);
   opacity: 0.8;
 }
+
+@media (max-width: 1024px) {
+  .modal__description {
+    font-size: 13px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

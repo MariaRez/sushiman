@@ -3,3 +3,17 @@
   bottom: -30px;
   transform: rotate(60deg);
 }
+
+@media (max-width: 1024px) {
+  .modal__background_side_botton {
+    right: 60px;
+    bottom: -24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__background_side_botton {
+    right: 45px;
+    bottom: -18px;
+  }
+}

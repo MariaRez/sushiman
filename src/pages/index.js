@@ -95,7 +95,7 @@ const emailInput = document.getElementsByName("contact_input")[0];
 const contactButton = document.getElementsByName("contact_button")[0];
 
 openModalBtn.addEventListener("click", function() {
-  modal.style.display = "block";
+  modal.style.display = "flex";
 });
 
 closeModalBtn.addEventListener("click", function() {

@@ -27,12 +27,12 @@
 - trending
 - popular
 - carousel
+- modal
 
 Что дальше
 
 - выбор категории
 - webpack
-- адаптив modal
 - добавить префиксы
 
 Разрешения

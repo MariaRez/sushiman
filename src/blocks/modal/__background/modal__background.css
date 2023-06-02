@@ -10,3 +10,21 @@
   max-width: 60px;
   position: absolute;
 }
+
+@media (max-width: 1024px) {
+  .modal__background {
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 40px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__background {
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 30px;
+    position: absolute;
+  }
+}
