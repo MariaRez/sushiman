@@ -15,6 +15,10 @@
   position: relative;
 }
 
+.offers__form-button:disabled {
+  cursor: not-allowed;
+}
+
 @media (max-width: 1280px) {
   .offers__form-button {
     width: 165px;

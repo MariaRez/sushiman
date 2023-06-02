@@ -91,6 +91,8 @@ function updateSelectedCarouselItem() {
 const openModalBtn = document.getElementById("openModal");
 const modal = document.getElementById("modal");
 const closeModalBtn = document.getElementById("closeModal");
+const emailInput = document.getElementsByName("contact_input")[0];
+const contactButton = document.getElementsByName("contact_button")[0];
 
 openModalBtn.addEventListener("click", function() {
   modal.style.display = "block";
@@ -98,11 +100,23 @@ openModalBtn.addEventListener("click", function() {
 
 closeModalBtn.addEventListener("click", function() {
   modal.style.display = "none";
+  emailInput.value = ""; // Очистка поля ввода email
+  contactButton.disabled = true; // Блокировка кнопки
+});
+
+emailInput.addEventListener("input", function() {
+  if (emailInput.checkValidity()) {
+    contactButton.disabled = false;
+  } else {
+    contactButton.disabled = true;
+  }
 });
 
 window.addEventListener("click", function(event) {
   if (event.target === modal) {
     modal.style.display = "none";
+    emailInput.value = ""; // Очистка поля ввода email
+    contactButton.disabled = true; // Блокировка кнопки
   }
 });
 

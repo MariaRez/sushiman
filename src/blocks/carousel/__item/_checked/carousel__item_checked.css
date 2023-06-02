@@ -28,5 +28,6 @@
     min-width: 200px;
     min-height: 234px;
     transform: translateX(-175px);
+    transition: none;
   }
 }

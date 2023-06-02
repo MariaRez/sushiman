@@ -7,8 +7,48 @@
   font-size: 16px;
   line-height: 32px;
   color: var(--color2);
-  padding: 0;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 250px;
+  height: 60px;
+  border-radius: 46px;
+}
+
+.offers__form-input::-webkit-input-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.offers__form-input::-moz-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.offers__form-input:-ms-input-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.offers__form-input::-ms-input-placeholder {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .offers__form-input::placeholder {
@@ -21,7 +61,8 @@
 }
 
 .offers__form-input:focus,
-.offers__form-input:active {
+.offers__form-input:active,
+.offers__form-input:focus-visible {
   border: none;
   outline: none;
 }
@@ -29,18 +70,41 @@
 @media (max-width: 1280px) {
   .offers__form-input {
     width: 220px;
+    height: 55px;
   }
 }
 
 @media (max-width: 1024px) {
   .offers__form-input {
     width: 200px;
+    height: 50px;
   }
 }
 
 @media (max-width: 768px) {
   .offers__form-input {
     width: 160px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .offers__form-input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .offers__form-input::-moz-placeholder {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .offers__form-input:-ms-input-placeholder {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .offers__form-input::-ms-input-placeholder {
     font-size: 12px;
     line-height: 20px;
   }
@@ -54,6 +118,27 @@
 @media (max-width: 425px) {
   .offers__form-input {
     width: 110px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .offers__form-input::-webkit-input-placeholder {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .offers__form-input::-moz-placeholder {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .offers__form-input:-ms-input-placeholder {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .offers__form-input::-ms-input-placeholder {
     font-size: 10px;
     line-height: 15px;
   }
