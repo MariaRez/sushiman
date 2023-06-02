@@ -1,24 +1,41 @@
 .carousel__items {
   width: 100%;
   max-width: 970px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: start;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: end;
+  -webkit-column-gap: 56px;
+  -moz-column-gap: 56px;
   column-gap: 56px;
   position: relative;
   overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
   transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
 @media (max-width: 1439px) {
   .carousel__items {
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
     column-gap: 50px;
   }
 }
 
 @media (max-width: 1280px) {
   .carousel__items {
+    -webkit-column-gap: 35px;
+    -moz-column-gap: 35px;
     column-gap: 35px;
     max-width: 830px;
   }
@@ -26,6 +43,8 @@
 
 @media (max-width: 1024px) {
   .carousel__items {
+    -webkit-column-gap: 25px;
+    -moz-column-gap: 25px;
     column-gap: 25px;
     max-width: 610px;
   }
@@ -33,6 +52,8 @@
 
 @media (max-width: 768px) {
   .carousel__items {
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
     column-gap: 20px;
     max-width: 200px;
   }

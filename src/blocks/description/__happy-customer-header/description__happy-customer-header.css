@@ -1,5 +1,6 @@
 .description__happy-customer-header {
   width: 173px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;

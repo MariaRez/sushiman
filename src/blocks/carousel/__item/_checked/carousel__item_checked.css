@@ -2,6 +2,8 @@
   min-width: 338px;
   min-height: 399px;
   background-color: var(--color2);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
 
@@ -27,7 +29,11 @@
   .carousel__item_checked {
     min-width: 200px;
     min-height: 234px;
+    -webkit-transform: translateX(-175px);
+    -ms-transform: translateX(-175px);
     transform: translateX(-175px);
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
 }

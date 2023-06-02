@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  -webkit-transition: scale 0.5s ease;
+  -o-transition: scale 0.5s ease;
   transition: scale 0.5s ease;
 }
 

@@ -1,14 +1,24 @@
 .carousel__item-description {
   margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-column-gap: 59px;
+  -moz-column-gap: 59px;
   column-gap: 59px;
 }
 
 @media (max-width: 1280px) {
   .carousel__item-description {
     margin-top: 28px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
     column-gap: 50px;
   }
 }
@@ -16,6 +26,8 @@
 @media (max-width: 1024px) {
   .carousel__item-description {
     margin-top: 22px;
+    -webkit-column-gap: 35px;
+    -moz-column-gap: 35px;
     column-gap: 35px;
   }
 }
@@ -23,6 +35,8 @@
 @media (max-width: 768px) {
   .carousel__item-description {
     margin-top: 18px;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
     column-gap: 30px;
   }
 }

@@ -1,11 +1,17 @@
 .description__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
   column-gap: 40px;
   margin: 0 0 88px 184px;
 }
 
 @media (max-width: 1280px) {
   .description__links {
+    -webkit-column-gap: 35px;
+    -moz-column-gap: 35px;
     column-gap: 35px;
     margin: 0 0 70px 129px;
   }
@@ -13,6 +19,8 @@
 
 @media (max-width: 1024px) {
   .description__links {
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
     column-gap: 30px;
     margin: 0 0 60px 100px;
   }
@@ -20,10 +28,15 @@
 
 @media (max-width: 768px) {
   .description__links {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     row-gap: 5px;
     margin: 0;
     margin-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 }

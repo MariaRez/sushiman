@@ -1,11 +1,15 @@
 .carousel__item-description_checked {
   margin-top: 31px;
+  -webkit-column-gap: 84px;
+  -moz-column-gap: 84px;
   column-gap: 84px;
 }
 
 @media (max-width: 1280px) {
   .carousel__item-description_checked {
     margin-top: 27px;
+    -webkit-column-gap: 70px;
+    -moz-column-gap: 70px;
     column-gap: 70px;
   }
 }
@@ -13,6 +17,8 @@
 @media (max-width: 1024px) {
   .carousel__item-description_checked {
     margin-top: 24px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
     column-gap: 50px;
   }
 }
@@ -20,6 +26,8 @@
 @media (max-width: 768px) {
   .carousel__item-description_checked {
     margin-top: 22px;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
     column-gap: 40px;
   }
 }
