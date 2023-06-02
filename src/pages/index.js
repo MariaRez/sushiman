@@ -124,8 +124,8 @@ window.addEventListener("click", function(event) {
 const template = document.querySelector('.template').content;
 const items = document.querySelector('.carousel__items');
 
-const prependToContainer = (container, element) => {
-  container.prepend(element);
+const appendToContainer = (container, element) => {
+  container.append(element);
 }
 
 function create (element) {
@@ -139,14 +139,39 @@ function create (element) {
   return htmlElement;
 };
 
-const reverseMenuItems = menuItems.reverse();
-
-function start () {
-  reverseMenuItems.forEach((element) => {
-    prependToContainer(items,create(element));
+function filterItems(category) {
+  items.innerHTML = ''; // Очищаем контейнер с карточками
+  // Фильтруем карточки на основе выбранной категории
+  const filteredItems = category === 'all' ? menuItems : menuItems.filter(item => item.category === category);
+  // Отрисовываем отфильтрованные карточки
+  filteredItems.forEach(item => {
+    appendToContainer(items, create(item));
   });
-  // Инициализация выбранного элемента при загрузке страницы
   updateSelectedCarouselItem();
 }
 
-start();
+// КАРТОЧКИ ПРИ ВЫБОРЕ КАТЕГОРИИ
+const popular = document.querySelector(".popular")
+const popularItems = popular.querySelector(".popular__list-items");
+const popularButtons = popularItems.querySelectorAll(".popular__list-item")
+
+// функция добавляет класс нажатой кнопке и убирает класс у остальных
+function handleButtonClick(clickedBtn) {
+  popularButtons.forEach(function (button) {
+    if (button === clickedBtn) {
+      button.classList.add("popular__list-item_checked");
+    } else {
+      button.classList.remove("popular__list-item_checked");
+    }
+  });
+  const category = clickedBtn.getAttribute('data-category');
+  filterItems(category);
+}
+
+popularButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    handleButtonClick(button);
+  });
+});
+
+filterItems('all'); // При загрузке страницы отображаем все карточки

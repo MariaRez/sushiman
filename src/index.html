@@ -140,8 +140,8 @@
     <section class="popular">
       <h3 class="popular__header">Popular Foods / 人気</h3>
       <ul class="popular__list-items">
-        <li class="popular__list-item popular__list-item_checked">All</li>
-        <li class="popular__list-item">
+        <li data-category="all" class="popular__list-item popular__list-item_checked">All</li>
+        <li data-category="Sushi" class="popular__list-item">
           <img
             src="/src/images/popular-sushi.svg"
             alt="Popular Sushi"
@@ -149,7 +149,7 @@
           />
           Sushi
         </li>
-        <li class="popular__list-item">
+        <li data-category="Ramen" class="popular__list-item">
           <img
             src="/src/images/popular-ramen.svg"
             alt="Popular Ramen"
@@ -157,21 +157,21 @@
           />
           Ramen
         </li>
-        <li class="popular__list-item">
+        <li data-category="Udon" class="popular__list-item">
           <img
             src="/src/images/popular-udon.svg"
             alt="Popular Udon"
             class="popular__list-item-image"
           />Udon
         </li>
-        <li class="popular__list-item">
+        <li data-category="Danggo" class="popular__list-item">
           <img
             src="/src/images/popular-danggo.svg"
             alt="Popular Danggo"
             class="popular__list-item-image"
           />Danggo
         </li>
-        <li class="popular__list-item">Others</li>
+        <li data-category="Others" class="popular__list-item">Others</li>
       </ul>
       <div class="carousel">
         <img

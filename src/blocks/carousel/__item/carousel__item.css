@@ -22,7 +22,6 @@
   -webkit-transition: background-color 1s ease;
   -o-transition: background-color 1s ease;
   transition: background-color 1s ease;
-  cursor: pointer;
 }
 
 .carousel__item:hover {
