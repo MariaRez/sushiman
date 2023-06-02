@@ -56,14 +56,7 @@ function shiftCarouselItemsLeft() {
 // Функция для обновления выбранного элемента карусели
 function updateSelectedCarouselItem() {
   const items = carouselItems.querySelectorAll(".carousel__item");
-  const carouselWidth = carousel.offsetWidth;
-  let selectedIndex;
-
-  if (carouselWidth <= 300) {
-    selectedIndex = 0;
-  } else {
-    selectedIndex = 1;
-  }
+  const selectedIndex = 1;
 
   items.forEach((item, index) => {
     if (index === selectedIndex) {

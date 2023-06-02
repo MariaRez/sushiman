@@ -27,5 +27,6 @@
   .carousel__item_checked {
     min-width: 200px;
     min-height: 234px;
+    transform: translateX(-175px);
   }
 }
