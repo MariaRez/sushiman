@@ -16,7 +16,7 @@
 
 .trending__item-list-unit::before {
   display: inline-block;
-  content: url(/src/images/check.svg);
+  content: url(/src/images/icons/iconCheck.svg);
   margin-right: 12px;
   width: 24px;
   height: 24px;
@@ -36,7 +36,7 @@
     margin-right: 11px;
     width: 20px;
     height: 20px;
-    content: url(/src/images/check-s.svg);
+    content: url(/src/images/icons/iconCheckMedium.svg);
   }
 }
 
@@ -59,6 +59,6 @@
     margin-right: 8px;
     width: 14px;
     height: 14px;
-    content: url(/src/images/check-xs.svg);
+    content: url(/src/images/icons/iconCheckSmall.svg);
   }
 }

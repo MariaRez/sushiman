@@ -5,7 +5,7 @@
 }
 
 .carousel__item-rating_checked::before {
-  content: url(/src/images/star-big.svg);
+  content: url(/src/images/icons/iconRatingChecked.svg);
   margin-right: 10.67px;
   width: 27px;
   height: 25px;
@@ -18,7 +18,7 @@
   }
   
   .carousel__item-rating_checked::before {
-    content: url(/src/images/star-big-l.svg);
+    content: url(/src/images/icons/iconRatingCheckedLarge.svg);
     margin-right: 9px;
     width: 24px;
     height: 22px;
@@ -32,7 +32,7 @@
   }
   
   .carousel__item-rating_checked::before {
-    content: url(/src/images/star-big-m.svg);
+    content: url(/src/images/icons/iconRatingCheckedMedium.svg);
     margin-right: 5px;
     width: 20px;
     height: 17px;
@@ -46,7 +46,7 @@
   }
   
   .carousel__item-rating_checked::before {
-    content: url(/src/images/star-big-s.svg);
+    content: url(/src/images/icons/iconRatingCheckedSmall.svg);
     margin-right: 3px;
     width: 15px;
     height: 12px;
