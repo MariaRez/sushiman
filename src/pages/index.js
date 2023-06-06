@@ -1,18 +1,36 @@
-import { menuItems } from "../utils/data.js";
+import { menuItems } from "../utils/menuItems.js";
+import {
+  carouselItems,
+  arrowToTheLeft,
+  arrowToTheRight,
+  delayTime,
+  classCarouselItem,
+  valueOfSelectedIndex,
+  classCarouselItemChecked,
+  classItemHeader,
+  classItemRating,
+  classItemPrice,
+  classItemImage,
+  classItemHeaderChecked,
+  classItemRatingChecked,
+  classItemPriceChecked,
+  classItemImageChecked,
+  modal,
+  openModalBtn,
+  closeModalBtn,
+  emailInput,
+  contactButton,
+  template,
+  popularButtons,
+  classPopularButtonChecked,
+} from "../utils/constants.js";
 
 // КАРУСЕЛЬ
-
-const carousel = document.querySelector(".carousel");
-const carouselItems = carousel.querySelector(".carousel__items");
-const arrowToTheLeft = carousel.querySelector(".carousel__arrow_to_left");
-const arrowToTheRight = carousel.querySelector(".carousel__arrow_to_right");
-
 // для проверки размера экрана и вызова соответствующей функции обновления выбранного элемента карусели
 // Создаем обработчик события resize с использованием debounce
-const handleResize = debounce(updateSelectedCarouselItem, 200);
+const handleResize = debounce(updateSelectedCarouselItem, delayTime);
 
-// Добавляем обработчик события resize
-window.addEventListener('resize', handleResize);
+window.addEventListener("resize", handleResize);
 
 // Функция debounce, ограничивающая частоту вызова функции
 function debounce(func, delay) {
@@ -55,32 +73,32 @@ function shiftCarouselItemsLeft() {
 
 // Функция для обновления выбранного элемента карусели
 function updateSelectedCarouselItem() {
-  const items = carouselItems.querySelectorAll(".carousel__item");
-  const selectedIndex = 1;
+  const items = carouselItems.querySelectorAll(classCarouselItem);
+  const selectedIndex = valueOfSelectedIndex;
 
   items.forEach((item, index) => {
     if (index === selectedIndex) {
-      item.classList.add("carousel__item_checked");
+      item.classList.add(classCarouselItemChecked);
     } else {
-      item.classList.remove("carousel__item_checked");
+      item.classList.remove(classCarouselItemChecked);
     }
 
-    const itemHeader = item.querySelector(".carousel__item-header");
-    const itemRating = item.querySelector(".carousel__item-rating");
-    const itemPrice = item.querySelector(".carousel__item-price");
-    const itemImage = item.querySelector(".carousel__item-image");
+    const itemHeader = item.querySelector(classItemHeader);
+    const itemRating = item.querySelector(classItemRating);
+    const itemPrice = item.querySelector(classItemPrice);
+    const itemImage = item.querySelector(classItemImage);
 
     if (itemHeader && itemRating && itemPrice && itemImage) {
       if (index === selectedIndex) {
-        itemHeader.classList.add("carousel__item-header_checked");
-        itemRating.classList.add("carousel__item-rating_checked");
-        itemPrice.classList.add("carousel__item-price_checked");
-        itemImage.classList.add("carousel__item-image_checked");
+        itemHeader.classList.add(classItemHeaderChecked);
+        itemRating.classList.add(classItemRatingChecked);
+        itemPrice.classList.add(classItemPriceChecked);
+        itemImage.classList.add(classItemImageChecked);
       } else {
-        itemHeader.classList.remove("carousel__item-header_checked");
-        itemRating.classList.remove("carousel__item-rating_checked");
-        itemPrice.classList.remove("carousel__item-price_checked");
-        itemImage.classList.remove("carousel__item-image_checked");
+        itemHeader.classList.remove(classItemHeaderChecked);
+        itemRating.classList.remove(classItemRatingChecked);
+        itemPrice.classList.remove(classItemPriceChecked);
+        itemImage.classList.remove(classItemImageChecked);
       }
     }
   });
@@ -88,23 +106,17 @@ function updateSelectedCarouselItem() {
 
 // МОДАЛЬНОЕ ОКНО
 
-const openModalBtn = document.getElementById("openModal");
-const modal = document.getElementById("modal");
-const closeModalBtn = document.getElementById("closeModal");
-const emailInput = document.getElementsByName("contact_input")[0];
-const contactButton = document.getElementsByName("contact_button")[0];
-
-openModalBtn.addEventListener("click", function() {
+openModalBtn.addEventListener("click", function () {
   modal.style.display = "flex";
 });
 
-closeModalBtn.addEventListener("click", function() {
+closeModalBtn.addEventListener("click", function () {
   modal.style.display = "none";
   emailInput.value = ""; // Очистка поля ввода email
   contactButton.disabled = true; // Блокировка кнопки
 });
 
-emailInput.addEventListener("input", function() {
+emailInput.addEventListener("input", function () {
   if (emailInput.checkValidity()) {
     contactButton.disabled = false;
   } else {
@@ -112,7 +124,7 @@ emailInput.addEventListener("input", function() {
   }
 });
 
-window.addEventListener("click", function(event) {
+window.addEventListener("click", function (event) {
   if (event.target === modal) {
     modal.style.display = "none";
     emailInput.value = ""; // Очистка поля ввода email
@@ -121,50 +133,46 @@ window.addEventListener("click", function(event) {
 });
 
 // КАРТОЧКИ В КАРУСЕЛИ ПОДГРУЗКА
-const template = document.querySelector('.template').content;
-const items = document.querySelector('.carousel__items');
-
 const appendToContainer = (container, element) => {
   container.append(element);
-}
+};
 
-function create (element) {
-  const htmlElement = template.cloneNode(true); 
-  htmlElement.querySelector('.carousel__item-header').textContent = element.name;
-  htmlElement.querySelector('.carousel__item-rating').textContent = element.rating;
-  htmlElement.querySelector('.carousel__item-price').textContent = element.price;
-  const image = htmlElement.querySelector('.carousel__item-image');
+function create(element) {
+  const htmlElement = template.cloneNode(true);
+  htmlElement.querySelector(classItemHeader).textContent = element.name;
+  htmlElement.querySelector(classItemRating).textContent = element.rating;
+  htmlElement.querySelector(classItemPrice).textContent = element.price;
+  const image = htmlElement.querySelector(classItemImage);
   image.src = element.image;
   image.alt = element.name;
   return htmlElement;
-};
+}
 
 function filterItems(category) {
-  items.innerHTML = ''; // Очищаем контейнер с карточками
+  carouselItems.innerHTML = ""; // Очищаем контейнер с карточками
   // Фильтруем карточки на основе выбранной категории
-  const filteredItems = category === 'all' ? menuItems : menuItems.filter(item => item.category === category);
+  const filteredItems =
+    category === "all"
+      ? menuItems
+      : menuItems.filter((item) => item.category === category);
   // Отрисовываем отфильтрованные карточки
-  filteredItems.forEach(item => {
-    appendToContainer(items, create(item));
+  filteredItems.forEach((item) => {
+    appendToContainer(carouselItems, create(item));
   });
   updateSelectedCarouselItem();
 }
 
 // КАРТОЧКИ ПРИ ВЫБОРЕ КАТЕГОРИИ
-const popular = document.querySelector(".popular")
-const popularItems = popular.querySelector(".popular__list-items");
-const popularButtons = popularItems.querySelectorAll(".popular__list-item")
-
 // функция добавляет класс нажатой кнопке и убирает класс у остальных
 function handleButtonClick(clickedBtn) {
   popularButtons.forEach(function (button) {
     if (button === clickedBtn) {
-      button.classList.add("popular__list-item_checked");
+      button.classList.add(classPopularButtonChecked);
     } else {
-      button.classList.remove("popular__list-item_checked");
+      button.classList.remove(classPopularButtonChecked);
     }
   });
-  const category = clickedBtn.getAttribute('data-category');
+  const category = clickedBtn.getAttribute("data-category");
   filterItems(category);
 }
 
@@ -174,4 +182,4 @@ popularButtons.forEach(function (button) {
   });
 });
 
-filterItems('all'); // При загрузке страницы отображаем все карточки
+filterItems("all"); // При загрузке страницы отображаем все карточки
