@@ -144,5 +144,9 @@
   --color7: #333333;
   --color8: #121211;
   --color9: #020202;
-  --color10: #FFF0DE;
+  --color10: #fff0de;
+}
+
+html {
+  scroll-behavior: smooth;
 }
