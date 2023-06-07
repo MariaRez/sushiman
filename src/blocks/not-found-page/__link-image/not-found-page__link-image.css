@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
   -webkit-transition: scale 0.5s ease;
   -o-transition: scale 0.5s ease;
