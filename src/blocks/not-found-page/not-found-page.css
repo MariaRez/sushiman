@@ -1,0 +1,18 @@
+.not-found-page {
+  background-color: var(--color10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  padding: 70px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 425px) {
+  .not-found-page {
+    row-gap: 10px;
+    padding: 40px;
+  }
+}

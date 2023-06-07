@@ -1,0 +1,33 @@
+.not-found-page__link-container {
+  width: 212px;
+  height: 64px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
+  column-gap: 16px;
+  align-items: center;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .not-found-page__link-container {
+    width: 142px;
+    height: 43px;
+    -webkit-column-gap: 8px;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+
+@media (max-width: 425px) {
+  .not-found-page__link-container {
+    width: 115px;
+    height: 30px;
+  }
+}

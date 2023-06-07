@@ -1,0 +1,21 @@
+@import url(../blocks/not-found-page/not-found-page.css);
+@import url(../blocks/not-found-page/__header/not-found-page__header.css);
+@import url(../blocks/not-found-page/__description/not-found-page__description.css);
+@import url(../blocks/not-found-page/__link-container/not-found-page__link-container.css);
+@import url(../blocks/not-found-page/__link-image/not-found-page__link-image.css);
+@import url(../blocks/not-found-page/__link-text/not-found-page__link-text.css);
+@import url(../blocks/not-found-page/__background/not-found-page__background.css);
+
+/* цвета для использования */
+:root {
+  --color1: #b1454a;
+  --color2: #ffffff;
+  --color3: #1f1e31;
+  --color4: #888888;
+  --color5: #555555;
+  --color6: #121212;
+  --color7: #333333;
+  --color8: #121211;
+  --color9: #020202;
+  --color10: #fff0de;
+}
