@@ -16,13 +16,20 @@ import {
   classItemPriceChecked,
   classItemImageChecked,
   modal,
-  openModalBtn,
+  offerBtn,
   closeModalBtn,
   emailInput,
   contactButton,
+  search,
   template,
   popularButtons,
   classPopularButtonChecked,
+  modalHeader,
+  modalDescription,
+  headerInOffers,
+  descriptionInOffers,
+  headerInSearch,
+  descriptionInSearch,
 } from "../utils/constants.js";
 
 // КАРУСЕЛЬ
@@ -106,14 +113,22 @@ function updateSelectedCarouselItem() {
 
 // МОДАЛЬНОЕ ОКНО
 
-openModalBtn.addEventListener("click", function () {
+function openModal () {
   modal.style.display = "flex";
+}
+
+function closeModal () {
+  modal.style.display = "none";
+}
+
+offerBtn.addEventListener("click", function () {
+  openModal();
+  modalHeader.textContent = headerInOffers;
+  modalDescription.textContent = descriptionInOffers;
 });
 
 closeModalBtn.addEventListener("click", function () {
-  modal.style.display = "none";
-  emailInput.value = ""; // Очистка поля ввода email
-  contactButton.disabled = true; // Блокировка кнопки
+  closeModal();
 });
 
 emailInput.addEventListener("input", function () {
@@ -127,10 +142,18 @@ emailInput.addEventListener("input", function () {
 window.addEventListener("click", function (event) {
   if (event.target === modal) {
     modal.style.display = "none";
-    emailInput.value = ""; // Очистка поля ввода email
-    contactButton.disabled = true; // Блокировка кнопки
+    emailInput.value = "";
+    contactButton.disabled = true;
   }
 });
+
+// ПОИСК
+search.addEventListener("submit", function (evt) {
+  evt.preventDefault();
+  openModal();
+  modalHeader.textContent = headerInSearch;
+  modalDescription.textContent = descriptionInSearch;
+})
 
 // КАРТОЧКИ В КАРУСЕЛИ ПОДГРУЗКА
 const appendToContainer = (container, element) => {

@@ -30,13 +30,13 @@
           <li><a href="#aboutUs" class="links__item links__item_place_header" target="_self" rel="noopener noreferrer">about us</a></li>
         </ul>
       </nav>
-      <form class="search" action="" name="search" autocomplete="on">
-        <input class="search__input" type="text" placeholder="Enter text" name="search_input">
-        <button class="search__button" name="search_button"><img src="./images/icons/iconSearch.svg" alt="Search" class="search__button-image"></button>
+      <form class="search" name="search">
+        <input class="search__input" type="text" placeholder="Enter text" name="search_input" required>
+        <button class="search__button" name="search_button" type="submit"><img src="./images/icons/iconSearch.svg" alt="Search" class="search__button-image"></button>
       </form>
     </header>
     <article class="main-illustration">
-      <a href="./index.html" class="logo logo_place_header">
+      <a href="./index.html" class="logo logo_place_header" target="_self">
         <img
           src="./images/logo/logoHeader.svg"
           alt="Logo"
@@ -62,7 +62,7 @@
           >ツナ</span
         >
       </div>
-      <a class="learn-illustration__link button-change-bg-color" href="./pageNotFound.html">
+      <a class="learn-illustration__link button-change-bg-color" href="./pageNotFound.html" target="_self">
         <span class="button-change-bg-color__span"></span>
         <span class="learn-illustration__link-text">Learn More</span>
         <img
@@ -91,12 +91,12 @@
         anytime.
       </p>
       <div class="description__links">
-        <a class="description__link description__link_to_order button-change-bg-color" href="./pageNotFound.html">
+        <a class="description__link description__link_to_order button-change-bg-color" href="./pageNotFound.html" target="_self">
           <span class="button-change-bg-color"></span>
           Order Now
           <span class="button-change-bg-color"></span>
         </a>
-        <a class="description__link description__link_to_instructions" href="./pageNotFound.html">
+        <a class="description__link description__link_to_instructions" href="./pageNotFound.html" target="_self">
           <img
             class="description__link-image"
             src="/src/images/icons/iconPlay.svg"
@@ -180,7 +180,7 @@
           class="carousel__arrow carousel__arrow_to_right"
         />
       </div>
-      <a href="./pageNotFound.html" class="popular__link button-change-bg-color">
+      <a href="./pageNotFound.html" class="popular__link button-change-bg-color" target="_self">
         <span class="button-change-bg-color__span"></span>
         <span class="popular__link-text">Explore Foods</span>
         <img class="popular__link-text-arrow" src="./images/icons/iconArrowToRight.svg" alt="To explore foods">
@@ -248,7 +248,7 @@
       <p class="offers__description">Sign up for the Sushiman newsletter.</p>
         <form class="offers__form" name="contact_form" autocomplete="on">
           <input class="offers__form-input" type="email" placeholder="Enter email address" name="contact_input" required>
-          <button class="offers__form-button button-change-bg-color" name="contact_button" type="button" id="openModal" disabled>
+          <button class="offers__form-button button-change-bg-color" name="contact_button" type="button" disabled>
             <span class="button-change-bg-color__span"></span>
             Get Started
             <span class=button-change-bg-color__span></span>
@@ -259,7 +259,7 @@
       <span class="offers__background offers__background_side_right">日本食</span>
     </section>
     <footer class="footer">
-      <a href="./index.html" class="logo logo_place_footer">
+      <a href="./index.html" class="logo logo_place_footer" target="_self">
         <img
         src="./images/logo/logoFooter.svg"
         alt="Logo"
@@ -275,9 +275,9 @@
         </ul>
       </nav>
       <ul class="social-media-links">
-        <li><a class="social-media-links__item" href="./pageNotFound.html"><img class="social-media-links__item-image" src="./images/socialMedia/facebook.svg" alt="Our Facebook"></a></li>
-        <li><a class="social-media-links__item" href="./pageNotFound.html"><img class="social-media-links__item-image" src="./images/socialMedia/twitter.svg" alt="Our Twitter"></a></li>
-        <li><a class="social-media-links__item" href="./pageNotFound.html"><img class="social-media-links__item-image" src="./images/socialMedia/instagram.svg" alt="Our Instagram"></a></li>
+        <li><a class="social-media-links__item" href="./pageNotFound.html" target="_blank"><img class="social-media-links__item-image" src="./images/socialMedia/facebook.svg" alt="Our Facebook"></a></li>
+        <li><a class="social-media-links__item" href="./pageNotFound.html" target="_blank"><img class="social-media-links__item-image" src="./images/socialMedia/twitter.svg" alt="Our Twitter"></a></li>
+        <li><a class="social-media-links__item" href="./pageNotFound.html" target="_blank"><img class="social-media-links__item-image" src="./images/socialMedia/instagram.svg" alt="Our Instagram"></a></li>
       </ul>
     </footer>
     <div id="modal" class="modal">
@@ -285,8 +285,8 @@
         <span class="modal__background modal__background_side_left">寿司エナク</span>
         <span class="modal__background modal__background_side_botton">日本食</span>
         <span id="closeModal" class="modal__close-button">&times;</span>
-        <h2 class="modal__header">Your data has been successfully sent</h2>
-        <p class="modal__description">Thank you for subscribing to our news!</p>
+        <h2 class="modal__header"></h2>
+        <p class="modal__description"></p>
         <img src="/src/images/menuImages/shrimpSushi.svg" alt="Shrimp sushi" class="modal__image">
       </div>
     </div>

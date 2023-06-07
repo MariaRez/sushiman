@@ -28,11 +28,20 @@ export const classItemPriceChecked = "carousel__item-price_checked";
 export const classItemImageChecked = "carousel__item-image_checked";
 
 // МОДАЛЬНОЕ ОКНО
-export const openModalBtn = document.getElementById("openModal");
+export const offerBtn = document.querySelector(".offers__form-button")
 export const modal = document.getElementById("modal");
 export const closeModalBtn = document.getElementById("closeModal");
 export const emailInput = document.getElementsByName("contact_input")[0];
 export const contactButton = document.getElementsByName("contact_button")[0];
+
+export const search = document.querySelector(".search");
+export const modalHeader = document.querySelector(".modal__header");
+export const modalDescription = document.querySelector(".modal__description");
+
+export const headerInOffers = "Your data has been successfully sent";
+export const descriptionInOffers = "Thank you for subscribing to our news!";
+export const headerInSearch = "We are very sorry, search isn`t working";
+export const descriptionInSearch = "Hope to fix this soon!";
 
 // КАРТОЧКИ В КАРУСЕЛИ ПОДГРУЗКА
 export const template = document.querySelector(".template").content;
