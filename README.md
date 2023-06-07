@@ -25,6 +25,7 @@
 Что дальше
 
 - плавный переход
+- favicon
 - target ссылкам
 - search
 - webpack
