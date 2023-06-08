@@ -6,7 +6,7 @@
   line-height: 36px;
   letter-spacing: -0.01em;
   color: var(--color1);
-  opacity: 0.8;
+  opacity: var(--little-transparent);
   margin-bottom: 16px;
 }
 

@@ -6,7 +6,7 @@
   font-size: 240px;
   line-height: 276px;
   color: var(--color2);
-  opacity: 0.05;
+  opacity: var(--almost-transparent);
   max-width: 240px;
   position: absolute;
 }

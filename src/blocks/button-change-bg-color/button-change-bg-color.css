@@ -18,7 +18,7 @@
   width: 33.333%;
   height: 100%;
   background-color: transparent;
-  opacity: 0.5;
+  opacity: var(--translucent);
 }
 
 .button-change-bg-color > :first-child {
@@ -41,7 +41,7 @@
   border-radius: 50%;
   inset: 0;
   margin: auto;
-  opacity: 0;
+  opacity: var(--transparent);
   -webkit-transition: opacity 200ms, -webkit-transform 1000ms 200ms;
   transition: opacity 200ms, -webkit-transform 1000ms 200ms;
   -o-transition: transform 1000ms 200ms, opacity 200ms;
@@ -54,7 +54,7 @@
   -webkit-transform: scale(20);
   -ms-transform: scale(20);
   transform: scale(20);
-  opacity: 1;
+  opacity: var(--visible);
   -webkit-transition: opacity 500ms, -webkit-transform 1000ms;
   transition: opacity 500ms, -webkit-transform 1000ms;
   -o-transition: transform 1000ms, opacity 500ms;

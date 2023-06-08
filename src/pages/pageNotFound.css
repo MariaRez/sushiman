@@ -23,4 +23,11 @@
   --semi-bold: 600;
   --medium: 500;
   --normal: 400;
+  /* непрозрачность элемента */
+  --visible: 1;
+  --little-transparent: 0.8;
+  --translucent: 0.5;
+  --medium-transparent: 0.1;
+  --almost-transparent: 0.05;
+  --transparent: 0;
 }

@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .links_place_header {
     visibility: hidden;
-    opacity: 0;
+    opacity: var(--transparent);
     position: absolute;
     top: 15px;
     right: 80px;
@@ -13,7 +13,7 @@
 
   .links__container:hover .links_place_header {
     visibility: visible;
-    opacity: 1;
+    opacity: var(--visible);
     z-index: 10;
     -webkit-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     -o-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
@@ -22,7 +22,7 @@
 
   .links_place_header:hover .links_place_header {
     visibility: visible;
-    opacity: 1;
+    opacity: var(--visible);
     z-index: 10;
     -webkit-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     -o-transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;

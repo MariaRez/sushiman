@@ -9,7 +9,7 @@
   line-height: 32px;
   letter-spacing: -0.02em;
   color: var(--color8);
-  opacity: 0.5;
+  opacity: var(--translucent);
   padding-right: 78px;
   position: relative;
 }
@@ -17,7 +17,7 @@
 .description__happy-customer-header::after {
   content: " ";
   background: var(--color9);
-  opacity: 0.1;
+  opacity: var(--medium-transparent);
   width: 1px;
   height: 80px;
   position: absolute;
