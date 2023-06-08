@@ -3,7 +3,7 @@
   height: 60px;
   background-color: var(--color3);
   border-radius: 46px;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--medium);
   font-size: 16px;

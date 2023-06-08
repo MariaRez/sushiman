@@ -1,5 +1,5 @@
 .trending__item-description {
-  font-family: "Playfair Display", serif;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: var(--semi-bold);
   font-size: 64px;

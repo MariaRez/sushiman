@@ -1,7 +1,7 @@
 .offers__form-input {
   background-color: transparent;
   border: none;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--normal);
   font-size: 16px;
@@ -16,7 +16,7 @@
 }
 
 .offers__form-input::-webkit-input-placeholder {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--normal);
   font-size: 16px;
@@ -25,7 +25,7 @@
 }
 
 .offers__form-input::-moz-placeholder {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--normal);
   font-size: 16px;
@@ -34,7 +34,7 @@
 }
 
 .offers__form-input:-ms-input-placeholder {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--normal);
   font-size: 16px;
@@ -43,7 +43,7 @@
 }
 
 .offers__form-input::-ms-input-placeholder {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--normal);
   font-size: 16px;
@@ -52,7 +52,7 @@
 }
 
 .offers__form-input::placeholder {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--normal);
   font-size: 16px;

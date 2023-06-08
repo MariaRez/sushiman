@@ -157,6 +157,10 @@
   --medium-transparent: 0.1;
   --almost-transparent: 0.05;
   --transparent: 0;
+  /* семейство шрифтов */
+  --main-font: "Playfair Display", serif;
+  --auxiliary-font: "Plus Jakarta Sans", sans-serif;
+  --additional-font: Arial, Helvetica, sans-serif;
 }
 
 html {

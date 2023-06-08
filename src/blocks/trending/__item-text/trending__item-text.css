@@ -1,5 +1,5 @@
 .trending__item-text {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: var(--auxiliary-font);
   font-style: normal;
   font-weight: var(--normal);
   font-size: 18px;
