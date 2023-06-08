@@ -35,6 +35,7 @@ export const emailInput = document.getElementsByName("contact_input")[0];
 export const contactButton = document.getElementsByName("contact_button")[0];
 
 export const search = document.querySelector(".search");
+export const searchBtn = search.querySelector(".search__input");
 export const modalHeader = document.querySelector(".modal__header");
 export const modalDescription = document.querySelector(".modal__description");
 

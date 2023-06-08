@@ -30,6 +30,7 @@ import {
   descriptionInOffers,
   headerInSearch,
   descriptionInSearch,
+  searchBtn,
 } from "../utils/constants.js";
 
 // КАРУСЕЛЬ
@@ -127,9 +128,7 @@ offerBtn.addEventListener("click", function () {
   modalDescription.textContent = descriptionInOffers;
 });
 
-closeModalBtn.addEventListener("click", function () {
-  closeModal();
-});
+closeModalBtn.addEventListener("click",closeModal());
 
 emailInput.addEventListener("input", function () {
   if (emailInput.checkValidity()) {
@@ -142,6 +141,7 @@ emailInput.addEventListener("input", function () {
 window.addEventListener("click", function (event) {
   if (event.target === modal) {
     modal.style.display = "none";
+    searchBtn.value = "";
     emailInput.value = "";
     contactButton.disabled = true;
   }
