@@ -4,7 +4,7 @@
   font-weight: var(--normal);
   font-size: 18px;
   line-height: 36px;
-  letter-spacing: -0.01em;
+  letter-spacing: var(--small-ls);
   color: var(--color1);
   opacity: var(--little-transparent);
   margin-bottom: 16px;

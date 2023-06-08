@@ -169,6 +169,9 @@
   --m-border-radius: 46px;
   --s-border-radius: 36px;
   --xs-border-radius: 12px;
+  /* межбуквенное расстояние в тексте */
+  --normal-ls: -0.02em;
+  --small-ls: -0.01em;
 }
 
 html {

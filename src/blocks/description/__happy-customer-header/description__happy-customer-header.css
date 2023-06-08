@@ -7,7 +7,7 @@
   font-weight: var(--normal);
   font-size: 20px;
   line-height: 32px;
-  letter-spacing: -0.02em;
+  letter-spacing: var(--normal-ls);
   color: var(--color8);
   opacity: var(--translucent);
   padding-right: 78px;
