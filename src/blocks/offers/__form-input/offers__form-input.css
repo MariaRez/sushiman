@@ -21,7 +21,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .offers__form-input::-moz-placeholder {
@@ -30,7 +30,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .offers__form-input:-ms-input-placeholder {
@@ -39,7 +39,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .offers__form-input::-ms-input-placeholder {
@@ -48,7 +48,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .offers__form-input::placeholder {
@@ -57,7 +57,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .offers__form-input:focus,

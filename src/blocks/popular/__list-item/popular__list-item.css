@@ -2,8 +2,8 @@
   height: 64px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: var(--color11);
+  border: 1px solid var(--color12);
   border-radius: var(--m-border-radius);
   font-family: var(--auxiliary-font);
   font-style: var(--normal-style);

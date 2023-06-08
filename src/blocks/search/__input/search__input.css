@@ -34,7 +34,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .search__input::-moz-placeholder {
@@ -43,7 +43,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .search__input:-ms-input-placeholder {
@@ -52,7 +52,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .search__input::-ms-input-placeholder {
@@ -61,7 +61,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .search__input::placeholder {
@@ -70,7 +70,7 @@
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color14);
 }
 
 .search:hover .search__input {
