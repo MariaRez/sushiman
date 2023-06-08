@@ -1,7 +1,7 @@
 .learn-illustration__text {
   display: block;
   font-family: var(--additional-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--bold);
   font-size: 120px;
   line-height: 138px;

@@ -1,7 +1,7 @@
 .modal__background {
   font-family: var(--additional-font);
   background-color: transparent;
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--bold);
   font-size: 50px;
   line-height: 60px;

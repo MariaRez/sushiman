@@ -12,7 +12,7 @@
   z-index: 10;
   font-family: var(--auxiliary-font);
   background-color: var(--color1);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
@@ -30,7 +30,7 @@
 
 .search__input::-webkit-input-placeholder {
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
@@ -39,7 +39,7 @@
 
 .search__input::-moz-placeholder {
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
@@ -48,7 +48,7 @@
 
 .search__input:-ms-input-placeholder {
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
@@ -57,7 +57,7 @@
 
 .search__input::-ms-input-placeholder {
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
@@ -66,7 +66,7 @@
 
 .search__input::placeholder {
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;

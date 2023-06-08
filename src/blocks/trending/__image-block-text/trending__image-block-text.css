@@ -1,6 +1,6 @@
 .trending__image-block-text {
   font-family: var(--additional-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--bold);
   font-size: 120px;
   line-height: 138px;

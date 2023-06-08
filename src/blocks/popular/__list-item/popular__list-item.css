@@ -6,7 +6,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 46px;
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 20px;
   line-height: 25px;

@@ -1,6 +1,6 @@
 .carousel__item-rating {
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 20px;
   line-height: 25px;

@@ -4,7 +4,7 @@
   background-color: var(--color3);
   border-radius: 46px;
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--medium);
   font-size: 16px;
   line-height: 20px;

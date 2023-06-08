@@ -161,6 +161,8 @@
   --main-font: "Playfair Display", serif;
   --auxiliary-font: "Plus Jakarta Sans", sans-serif;
   --additional-font: Arial, Helvetica, sans-serif;
+  /* стиль шрифта */
+  --normal-style: normal;
 }
 
 html {

@@ -3,7 +3,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 20px;
   line-height: 32px;

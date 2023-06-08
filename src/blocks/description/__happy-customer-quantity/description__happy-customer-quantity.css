@@ -1,6 +1,6 @@
 .description__happy-customer-quantity {
   font-family: var(--main-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--normal);
   font-size: 82px;
   line-height: 115px;

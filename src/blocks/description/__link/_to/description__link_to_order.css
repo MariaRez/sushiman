@@ -3,7 +3,7 @@
   color: var(--color2);
   border-radius: 36px;
   font-family: var(--auxiliary-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--medium);
   font-size: 18px;
   line-height: 23px;

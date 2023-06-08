@@ -1,6 +1,6 @@
 .popular__header {
   font-family: var(--main-font);
-  font-style: normal;
+  font-style: var(--normal-style);
   font-weight: var(--semi-bold);
   font-size: 56px;
   line-height: 78px;
