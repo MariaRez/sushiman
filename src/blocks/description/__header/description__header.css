@@ -1,7 +1,7 @@
 .description__header {
   font-family: "Playfair Display", serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: var(--semi-bold);
   font-size: 88px;
   line-height: 123px;
   color: var(--color6);

@@ -3,7 +3,7 @@
   border: none;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
   color: var(--color2);
@@ -18,7 +18,7 @@
 .offers__form-input::-webkit-input-placeholder {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.5);
@@ -27,7 +27,7 @@
 .offers__form-input::-moz-placeholder {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.5);
@@ -36,7 +36,7 @@
 .offers__form-input:-ms-input-placeholder {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.5);
@@ -45,7 +45,7 @@
 .offers__form-input::-ms-input-placeholder {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.5);
@@ -54,7 +54,7 @@
 .offers__form-input::placeholder {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 16px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.5);

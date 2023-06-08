@@ -2,7 +2,7 @@
   color: var(--color9);
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 18px;
   line-height: 23px;
 }

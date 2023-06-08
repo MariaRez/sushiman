@@ -1,7 +1,7 @@
 .carousel__item-header {
   font-family: "Playfair Display", serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: var(--semi-bold);
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.01em;

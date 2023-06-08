@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--normal);
   font-size: 20px;
   line-height: 32px;
   letter-spacing: -0.02em;

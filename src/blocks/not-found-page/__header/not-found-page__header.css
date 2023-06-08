@@ -1,7 +1,7 @@
 .not-found-page__header {
   font-family: "Playfair Display", serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: var(--semi-bold);
   font-size: 80px;
   line-height: 100px;
   color: var(--color6);

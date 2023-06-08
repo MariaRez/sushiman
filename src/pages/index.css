@@ -133,8 +133,8 @@
 /* поведение ссылок и кнопок */
 @import url(../blocks/button-change-bg-color/button-change-bg-color.css);
 
-/* цвета для использования */
 :root {
+  /* цвета для использования */
   --color1: #b1454a;
   --color2: #ffffff;
   --color3: #1f1e31;
@@ -145,6 +145,11 @@
   --color8: #121211;
   --color9: #020202;
   --color10: #fff0de;
+  /* начертание шрифта */
+  --bold: 700;
+  --semi-bold: 600;
+  --medium: 500;
+  --normal: 400;
 }
 
 html {

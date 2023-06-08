@@ -1,7 +1,7 @@
 .trending__item-list-unit {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: var(--medium);
   font-size: 16px;
   line-height: 32px;
   color: var(--color8);

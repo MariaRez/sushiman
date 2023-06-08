@@ -6,8 +6,8 @@
 @import url(../blocks/not-found-page/__link-text/not-found-page__link-text.css);
 @import url(../blocks/not-found-page/__background/not-found-page__background.css);
 
-/* цвета для использования */
 :root {
+  /* цвета для использования */
   --color1: #b1454a;
   --color2: #ffffff;
   --color3: #1f1e31;
@@ -18,4 +18,9 @@
   --color8: #121211;
   --color9: #020202;
   --color10: #fff0de;
+  /* начертание шрифта */
+  --bold: 700;
+  --semi-bold: 600;
+  --medium: 500;
+  --normal: 400;
 }

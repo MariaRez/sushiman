@@ -1,7 +1,7 @@
 .links__item {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: var(--medium);
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
