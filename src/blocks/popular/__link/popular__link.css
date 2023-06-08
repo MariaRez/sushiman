@@ -2,7 +2,7 @@
   width: 224px;
   height: 64px;
   background-color: var(--color6);
-  border-radius: 64px;
+  border-radius: var(--l-border-radius);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -12,7 +12,7 @@
   box-sizing: border-box;
   width: 250px;
   height: 60px;
-  border-radius: 46px;
+  border-radius: var(--m-border-radius);
 }
 
 .offers__form-input::-webkit-input-placeholder {

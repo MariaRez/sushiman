@@ -1,7 +1,7 @@
 .description__link_to_order {
   background-color: var(--color6);
   color: var(--color2);
-  border-radius: 36px;
+  border-radius: var(--s-border-radius);
   font-family: var(--auxiliary-font);
   font-style: var(--normal-style);
   font-weight: var(--medium);

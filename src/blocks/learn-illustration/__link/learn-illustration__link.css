@@ -22,7 +22,7 @@
   padding: 0 24px;
   text-decoration: none;
   background-color: var(--color6);
-  border-radius: 64px 0 0 64px;
+  border-radius: var(--l-border-radius) 0 0 var(--l-border-radius);
   color: var(--color2);
 }
 

@@ -4,7 +4,7 @@
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 46px;
+  border-radius: var(--m-border-radius);
   font-family: var(--auxiliary-font);
   font-style: var(--normal-style);
   font-weight: var(--normal);

@@ -38,7 +38,7 @@
   background-color: var(--color8);
   width: 10%;
   aspect-ratio: 1;
-  border-radius: 50%;
+  border-radius: var(--xl-border-radius);
   inset: 0;
   margin: auto;
   opacity: var(--transparent);

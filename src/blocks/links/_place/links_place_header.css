@@ -6,7 +6,7 @@
     top: 15px;
     right: 80px;
     background-color: var(--color1);
-    border-radius: 12px;
+    border-radius: var(--xs-border-radius);
     width: 70px;
     padding: 5px;
   }

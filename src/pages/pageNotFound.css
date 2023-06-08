@@ -36,4 +36,10 @@
   --additional-font: Arial, Helvetica, sans-serif;
   /* стиль шрифта */
   --normal-style: normal;
+  /* радиус границы */
+  --xl-border-radius: 50%;
+  --l-border-radius: 64px;
+  --m-border-radius: 46px;
+  --s-border-radius: 36px;
+  --xs-border-radius: 12px;
 }
