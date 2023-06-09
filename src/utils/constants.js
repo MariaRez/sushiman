@@ -54,3 +54,8 @@ export const popularButtons = popularItems.querySelectorAll(
   ".popular__list-item"
 );
 export const classPopularButtonChecked = "popular__list-item_checked";
+
+// МОДАЛЬНОЕ ОКНО - В РАЗРАБОТКЕ
+export const sectionUnderDevBtn = document.getElementsByClassName('pnf_btn');
+export const headerInSection = "This section is still under development";
+export const descriptionInSection = "We are very sorry!";

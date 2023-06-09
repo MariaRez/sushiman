@@ -33,6 +33,9 @@ import {
   headerInSearch,
   descriptionInSearch,
   searchBtn,
+  sectionUnderDevBtn,
+  headerInSection,
+  descriptionInSection,
 } from "../utils/constants.js";
 
 // КАРУСЕЛЬ
@@ -116,11 +119,11 @@ function updateSelectedCarouselItem() {
 
 // МОДАЛЬНОЕ ОКНО
 
-function openModal () {
+function openModal() {
   modal.style.display = "flex";
 }
 
-function closeModal () {
+function closeModal() {
   modal.style.display = "none";
 }
 
@@ -130,7 +133,7 @@ offerBtn.addEventListener("click", function () {
   modalDescription.textContent = descriptionInOffers;
 });
 
-closeModalBtn.addEventListener("click",closeModal());
+closeModalBtn.addEventListener("click", closeModal());
 
 emailInput.addEventListener("input", function () {
   if (emailInput.checkValidity()) {
@@ -155,7 +158,7 @@ search.addEventListener("submit", function (evt) {
   openModal();
   modalHeader.textContent = headerInSearch;
   modalDescription.textContent = descriptionInSearch;
-})
+});
 
 // КАРТОЧКИ В КАРУСЕЛИ ПОДГРУЗКА
 const appendToContainer = (container, element) => {
@@ -208,3 +211,13 @@ popularButtons.forEach(function (button) {
 });
 
 filterItems("all"); // При загрузке страницы отображаем все карточки
+
+// МОДАЛЬНОЕ ОКНО - РАЗДЕЛ В РАЗРАБОТКЕ
+for (var i = 0; i < sectionUnderDevBtn.length; i++) {
+  sectionUnderDevBtn[i].addEventListener("click", function (evt) {
+    evt.preventDefault();
+    openModal();
+    modalHeader.textContent = headerInSection;
+    modalDescription.textContent = descriptionInSection;
+  });
+}
