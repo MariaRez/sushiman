@@ -38,5 +38,6 @@
 - движение категории при переключении кнопок вправо и влево
 - добавлены изображения svg для карусели
 
-
+После внесения изменения на сайт npm run deploy
+[Ссылка на сайт](https://mariarez.github.io/sushiman/)
 [Ссылка на макет в Figma](https://www.figma.com/file/LvgbR5dcQ0ZnAChDqaP6p8/Sushiman-FoodLandingPages?type=design&node-id=0-1&t=kGhMFrxDwt97gOaQ-0)
