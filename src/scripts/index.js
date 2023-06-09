@@ -133,7 +133,9 @@ offerBtn.addEventListener("click", function () {
   modalDescription.textContent = descriptionInOffers;
 });
 
-closeModalBtn.addEventListener("click", closeModal());
+closeModalBtn.addEventListener("click", function () {
+  closeModal();
+});
 
 emailInput.addEventListener("input", function () {
   if (emailInput.checkValidity()) {
