@@ -1,3 +1,5 @@
+import "../pages/index.css";
+
 import { menuItems } from "../utils/menuItems.js";
 import {
   carouselItems,

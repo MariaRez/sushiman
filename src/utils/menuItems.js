@@ -1,133 +1,154 @@
+import chezuSushi from "../images/menuImages/chezuSushi.svg";
+import originaleSushi from "../images/menuImages/originaleSushi.svg";
+import ramenLegendo from "../images/menuImages/ramenLegendo.svg";
+import ramenWithEgg from "../images/menuImages/ramenWithEgg.svg";
+import sashimiRamen from "../images/menuImages/sashimiRamen.svg";
+import narutoRamen from "../images/menuImages/narutoRamen.svg";
+import shrimpSushi from "../images/menuImages/shrimpSushi.svg";
+import salmonSushi from "../images/menuImages/salmonSushi.svg";
+import spicyTofuSushi from "../images/menuImages/spicyTofuSushi.svg";
+import salmonMakiSushi from "../images/menuImages/salmonMakiSushi.svg";
+import udonClassic from "../images/menuImages/udonClassic.svg";
+import spicyUdon from "../images/menuImages/spicyUdon.svg";
+import udonWithEgg from "../images/menuImages/udonWithEgg.svg";
+import salmonSteak from "../images/menuImages/salmonSteak.svg";
+import kappaMakiSushi from "../images/menuImages/kappaMakiSushi.svg";
+import tekkaMakiSushi from "../images/menuImages/tekkaMakiSushi.svg";
+import botchanDanggo from "../images/menuImages/botchanDanggo.svg";
+import originalDanggo from "../images/menuImages/originalDanggo.svg";
+import spicyDanggo from "../images/menuImages/spicyDanggo.svg";
+
+
 export const menuItems = [
   {
     name: "Chezu Sushi",
-    image: "images/menuImages/chezuSushi.svg",
+    image: chezuSushi,
     rating: 4.7,
     price: "$16.00",
     category: "Sushi",
   },
   {
     name: "Originale Sushi",
-    image: "images/menuImages/originaleSushi.svg",
+    image: originaleSushi,
     rating: 4.8,
     price: "$21.00",
     category: "Sushi",
   },
   {
     name: "Ramen Legendo",
-    image: "images/menuImages/ramenLegendo.svg",
+    image: ramenLegendo,
     rating: 4.7,
     price: "$16.00",
     category: "Ramen",
   },
   {
     name: "Ramen with egg",
-    image: "images/menuImages/ramenWithEgg.svg",
+    image: ramenWithEgg,
     rating: 4.8,
     price: "$18.00",
     category: "Ramen",
   },
   {
     name: "Sashimi Ramen",
-    image: "images/menuImages/sashimiRamen.svg",
+    image: sashimiRamen,
     rating: 5.0,
     price: "$21.00",
     category: "Ramen",
   },
   {
     name: "Naruto Ramen",
-    image: "images/menuImages/narutoRamen.svg",
+    image: narutoRamen,
     rating: 5.0,
     price: "$25.00",
     category: "Ramen",
   },
   {
     name: "Shrimp Sushi",
-    image: "images/menuImages/shrimpSushi.svg",
+    image: shrimpSushi,
     rating: 4.7,
     price: "$21.00",
     category: "Sushi",
   },
   {
     name: "Salmon Sushi",
-    image: "images/menuImages/salmonSushi.svg",
+    image: salmonSushi,
     rating: 4.9,
     price: "$18.00",
     category: "Sushi",
   },
   {
     name: "Spicy Tofu",
-    image: "images/menuImages/spicyTofuSushi.svg",
+    image: spicyTofuSushi,
     rating: 5.0,
     price: "$15.00",
     category: "Sushi",
   },
   {
     name: "Salmon Maki",
-    image: "images/menuImages/salmonMakiSushi.svg",
+    image: salmonMakiSushi,
     rating: 4.8,
     price: "$15.00",
     category: "Sushi",
   },
   {
     name: "Udon Classic",
-    image: "images/menuImages/udonClassic.svg",
+    image: udonClassic,
     rating: 4.5,
     price: "$20.00",
     category: "Udon",
   },
   {
     name: "Udon Spicy",
-    image: "images/menuImages/spicyUdon.svg",
+    image: spicyUdon,
     rating: 4.6,
     price: "$21.00",
     category: "Udon",
   },
   {
     name: "Udon with Egg",
-    image: "images/menuImages/udonWithEgg.svg",
+    image: udonWithEgg,
     rating: 4.5,
     price: "$18.00",
     category: "Udon",
   },
   {
     name: "Salmon Steak",
-    image: "images/menuImages/salmonSteak.svg",
+    image: salmonSteak,
     rating: 4.9,
     price: "$20.00",
     category: "Others",
   },
   {
     name: "Kappa Maki",
-    image: "images/menuImages/kappaMakiSushi.svg",
+    image: kappaMakiSushi,
     rating: 5.0,
     price: "$18.00",
     category: "Others",
   },
   {
     name: "Tekka Maki",
-    image: "images/menuImages/tekkaMakiSushi.svg",
+    image: tekkaMakiSushi,
     rating: 4.8,
     price: "$19.00",
     category: "Others",
   },
   {
     name: "Botchan Danggo",
-    image: "images/menuImages/botchanDanggo.svg",
+    image: botchanDanggo,
     rating: 4.8,
     price: "$14.00",
     category: "Danggo",
   },
   {
     name: "Original Danggo",
-    image: "images/menuImages/originalDanggo.svg",
+    image: originalDanggo,
     rating: 4.9,
     price: "$13.00",
     category: "Danggo",
   },
   {
     name: "Spicy Danggo",
-    image: "images/menuImages/spicyDanggo.svg",
+    image: spicyDanggo,
     rating: 4.9,
     price: "$13.00",
     category: "Danggo",
