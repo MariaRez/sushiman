@@ -4,11 +4,11 @@
     opacity: var(--transparent);
     position: absolute;
     top: 15px;
-    right: 80px;
+    right: 75px;
     background-color: var(--color1);
     border-radius: var(--xs-border-radius);
-    width: 70px;
-    padding: 5px;
+    width: 100px;
+    padding: 10px;
   }
 
   .links__container:hover .links_place_header {
@@ -32,7 +32,6 @@
 
 @media (max-width: 425px) {
   .links_place_header {
-    top: 7px;
     right: 55px;
   }
 }

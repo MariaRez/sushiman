@@ -24,7 +24,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    row-gap: 7px;
+    row-gap: 10px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
