@@ -41,7 +41,7 @@ npm run deploy
 ```bash
 git add -A
 git commit -m "Текст вашего коммита"
-git pudh
+git push
 ```
 
 ## Планы по доработке
